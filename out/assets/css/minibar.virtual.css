@@ -657,6 +657,13 @@
     color: #ffc107;
     
   }
+
+  .theme-yellow .page-portfolio .badge {
+    background-color: rgba(139, 128, 0, 0.15);
+    color: #ffc107;
+    
+  }
+
   
   .theme-yellow .page-about .img-place::before {
     border-color: #ffc107;
