@@ -71,12 +71,12 @@
             <span class="caption">About</span>
           </a>
         </li>
-        <li class="menu-item">
+        <!--li class="menu-item">
           <a href="#services" class="menu-link">
             <span class="icon ti-file"></span>
             <span class="caption">Service</span>
           </a>
-        </li>
+        </li-->
         <li class="menu-item">
           <a href="#portfolio" class="menu-link">
             <span class="icon ti-briefcase"></span>
@@ -100,6 +100,10 @@
   </div>
   <!-- change size of text dynamically -->
   <style>
+    /* breaks words*/
+    .break-words {
+    word-wrap: break-word;
+    }
     /* Default font size */
     .responsive-h2 {
       font-size: 50px;
@@ -144,7 +148,7 @@
       <div class="caption-header text-center wow zoomInUp">
         <h1 class="responsive-h2 fw-normal">Welcome</h1>
         <h2 class="responsive-h2 fw-light"> I'm <b class="fg-theme"> Marwin</b> Wongjarupun</h2>
-        <p class="badge responsive-p">UI/UX & Web Designer</font></p>
+        <p class="badge responsive-p ">Electronics & Computer Engineer</p>
       </div>
     </div>
     
@@ -162,8 +166,8 @@
           <div class="col-md-6">
             <div class="caption wow fadeInRight">
               <h2 class="fg-dark">Marwin Wongjarupun</h2>
-              <p class="fg-theme fw-medium">UI/UX & Web Designer</p>
-              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
+              <p class="fg-theme fw-medium">Electronics & Computer Engineer</p>
+              <p>I am a highly motivated and skilled graduate in Electronics and Computer Engineering with a strong interest in XR development. With a solid foundation in hardware and software systems, I possess a deep understanding of computer architecture, programming languages, and signal processing.</p>
               <ul class="theme-list">
                 <li class="fg-dark"><b>From:</b> Bangkok, Thailand</li>
                 <li class="fg-dark"><b>Lives In:</b> Leeds, UK</li>
@@ -184,19 +188,7 @@
           <div class="col-md-6">
             <h4 class="wow fadeInUp">Coding skills</h4>
             <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">JavaScript</span>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 86%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">86%</div>
-              </div>
-            </div>
-            <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">PHP</span>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">80%</div>
-              </div>
-            </div>
-            <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">HTML + CSS</span>
+              <span class="caption">C/C++</span>
               <div class="progress">
                 <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">100%</div>
               </div>
@@ -204,7 +196,25 @@
             <div class="progress-wrapper wow fadeInUp">
               <span class="caption">Python</span>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">90%</div>
+                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">80%</div>
+              </div>
+            </div>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">HTML + CSS</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+              </div>
+            </div>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Java</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">85%</div>
+              </div>
+            </div>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Verilog</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
               </div>
             </div>
           </div>
@@ -213,19 +223,22 @@
             <div class="progress-wrapper wow fadeInUp">
               <span class="caption">UI / UX Design</span>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 92%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">92%</div>
+                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">80%</div>
               </div>
             </div>
             <div class="progress-wrapper wow fadeInUp">
               <span class="caption">Web Design</span>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 99%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">99%</div>
+                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">80%</div>
               </div>
             </div>
+          </div>
+          <div class="col-md-6">
+            <h4 class="wow fadeInUp">Teamwork Skills</h4>
             <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">Logo Design</span>
+              <span class="caption">Git</span>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 79%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">79%</div>
+                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">90%</div>
               </div>
             </div>
           </div>
@@ -318,7 +331,7 @@
     </div> <!-- End page about -->
     
     <!-- Page Service -->
-    <div class="vg-page page-service" id="services">
+    <!--div class="vg-page page-service" id="services">
       <h1 class="text-center wow fadeInUp">Services</h1>
       <div class="container">
         <div class="row">
@@ -384,7 +397,7 @@
           </div>
         </div>
       </div>
-    </div> <!-- End page services -->
+    </div--> <!-- End page services -->
     <!--
     <!~~ Testimonials ~~>
     <div class="vg-page p-0" id="testimonial">
@@ -420,8 +433,8 @@
     <div class="vg-page page-portfolio" id="portfolio">
       <div class="container">
         <div class="text-center wow fadeInUp">
-          <div class="badge badge-subhead">
-            <h3 style="font-size: 25px;">
+          <div class="">
+            <h3 style="font-size: 35px;">
               <span style="color: #ffc107!important;">Portfolio</span>
           </h3>
           </div>
@@ -560,12 +573,11 @@
             </div>
           </div>
           <div class="col-lg-5">
-            <form target="_blank" action="https://formsubmit.co/83f5f82545794cc67fa037ecd26d13b3" method="POST" class="vg-contact-form" onsubmit="return validateForm()">
-              
+            <form target="_blank" action="https://formsubmit.co/a6007ea57f23491b8f2f523079e9cdfd" method="POST" class="vg-contact-form" onsubmit="return validateForm()">
               <div class="form-row">
                 
                 <input type="hidden" name="_next" value="https://marwinwongjarupun.dev/html/thank-you.html" />
-                <input type="hidden" name="_cc" value="5cfa7df51eb73f06cecc7bf6e1afd577">
+                <!--input type="hidden" name="_cc" value="83f5f82545794cc67fa037ecd26d13b3"-->
                 <div class="col-12 wow fadeInUp">
                   <input class="form-control" type="text" name="Name" id="name" placeholder="Your Name" required>
                 </div>
