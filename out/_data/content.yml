@@ -232,61 +232,61 @@ facts:
       name: "Music"
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       
-### Team [ team ]
-team:
-  title: "Our Team"
-  items:
-    - image: "assets/img/team/team1.jpg"
-      name: "Alejandro Abeyta"
-      role: "Web Developer"
-      social:
-        - url: "https://www.pinterest.com/"
-          icon: "fab fa-pinterest"
-        - url: "https://www.instagram.com/"
-          icon: "fab fa-instagram"
-        - url: "https://dribbble.com/"
-          icon: "fab fa-dribbble"
+# ### Team [ team ]
+# team:
+#   title: "Our Team"
+#   items:
+#     - image: "assets/img/team/team1.jpg"
+#       name: "Alejandro Abeyta"
+#       role: "Web Developer"
+#       social:
+#         - url: "https://www.pinterest.com/"
+#           icon: "fab fa-pinterest"
+#         - url: "https://www.instagram.com/"
+#           icon: "fab fa-instagram"
+#         - url: "https://dribbble.com/"
+#           icon: "fab fa-dribbble"
           
-    - image: "assets/img/team/team2.jpg"
-      name: "Peter Green"
-      role: "Back-end Developer"
-      social:
-        - url: "https://www.pinterest.com/"
-          icon: "fab fa-pinterest"
-        - url: "https://www.instagram.com/"
-          icon: "fab fa-instagram"
-        - url: "https://dribbble.com/"
-          icon: "fab fa-dribbble"
+#     - image: "assets/img/team/team2.jpg"
+#       name: "Peter Green"
+#       role: "Back-end Developer"
+#       social:
+#         - url: "https://www.pinterest.com/"
+#           icon: "fab fa-pinterest"
+#         - url: "https://www.instagram.com/"
+#           icon: "fab fa-instagram"
+#         - url: "https://dribbble.com/"
+#           icon: "fab fa-dribbble"
           
-### Testimonials [ testimonials ]
-testimonials:
-  title: "Testimonials"
-  items:
-    - image: "assets/img/testimonials/rev1.jpg"
-      name: "Helen Floyd"
-      role: "Art Director"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+# ### Testimonials [ testimonials ]
+# testimonials:
+#   title: "Testimonials"
+#   items:
+#     - image: "assets/img/testimonials/rev1.jpg"
+#       name: "Helen Floyd"
+#       role: "Art Director"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       
-    - image: "assets/img/testimonials/rev1.jpg"
-      name: "Helen Floyd"
-      role: "Art Director"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+#     - image: "assets/img/testimonials/rev1.jpg"
+#       name: "Helen Floyd"
+#       role: "Art Director"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 
-### Clients [ clients ]
-clients:
-  title: "Clients"
-  items:
-    - url: "https://www.google.com"
-      image: "assets/img/clients/client1.png"
+# ### Clients [ clients ]
+# clients:
+#   title: "Clients"
+#   items:
+#     - url: "https://www.google.com"
+#       image: "assets/img/clients/client1.png"
 
-    - url: "https://www.google.com"
-      image: "assets/img/clients/client2.png"
+#     - url: "https://www.google.com"
+#       image: "assets/img/clients/client2.png"
 
-    - url: "https://www.google.com"
-      image: "assets/img/clients/client3.png"
+#     - url: "https://www.google.com"
+#       image: "assets/img/clients/client3.png"
 
-    - url: "https://www.google.com"
-      image: "assets/img/clients/client4.png"
+#     - url: "https://www.google.com"
+#       image: "assets/img/clients/client4.png"
       
 ### Custom Text [ text ]
 text:
@@ -306,19 +306,19 @@ contacts_info:
   list:
     - label: "Phone"
       icon: "fas fa-phone"
-      value: "+ (231) 456 67 89"
+      value: "+66 966310831, +44 7752457758"
 
     - label: "Email"
       icon:  "fas fa-envelope"
-      value: "<a href='mailto:steve-pearson@gmail.com'>steve-pearson@gmail.com</a>"
+      value: "<a href='mailto:mw@marwinwongjarupun.dev'>mw@marwinwongjarupun.dev</a>"
 
     - label: "Address"
       icon: "fas fa-map-marker-alt"
-      value: "2621 W Pico Blvd, Los Angeles"
+      value: "Bangkok, Thailand"
     
-    - label: "Freelance Available"
+    - label: "Available"
       icon: "fas fa-user-tie"
-      value: "I am available for Freelance hire"
+      value: "I am available for full-time hire"
 
 ### Contact Form [ contacts-form ]
 contacts_form:
