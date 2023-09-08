@@ -81,7 +81,7 @@
 		position: absolute;
 		overflow: hidden;
 		top: 50%;
-		width: 150px;
+		width: 200px;
 		font-size: $default_size;
 		line-height: 2.5;
 		font-weight: 600;
@@ -299,7 +299,7 @@
 
 
 /* header tablet */
-@media (max-width: 1199px) {
+@media (max-width: 1400px) {
 	.header .logo {
 		position: relative;
 		top: 0;
@@ -449,7 +449,7 @@
 }
 
 /* section tablet */
-@media (max-width: 1199px) {
+@media (max-width: 1400px) {
 	.section {
 		padding-left: 50px;
 		padding-right: 50px;
@@ -527,7 +527,7 @@
 			left: 0;
 			width: 100%;
 			display: block;
-			font-size: 90px;
+			font-size: 80px;
 			line-height: 90px;
 			font-weight: 500;
 			color: $white_color;
@@ -796,7 +796,7 @@
 }
 
 /* section started tablet */
-@media (max-width: 1199px) {
+@media (max-width: 1400px) {
 	.section.started.layout-creative, .section.started.layout-post-creative {
 		padding-top: 35vw;
 		padding-left: 50px;
@@ -837,7 +837,7 @@
 	}
 	.section.started.personal .started-content .h-title {
 		margin-left: 15px;
-		margin-top: 115px;
+		margin-top: 100px;
 		width: 320px;
 	}
 	.section.started.layout-creative .started-content .h-title,
@@ -945,7 +945,7 @@
 }
 
 /* section started mobile landscape */
-@media screen and (orientation:landscape) and (min-device-width: 319px) and (max-device-width: 1199px) {
+@media screen and (orientation:landscape) and (min-device-width: 319px) and (max-device-width: 1400px) {
 	.section.started .started-content .logo {
 		position: absolute;
 		left: -30px;
@@ -1034,7 +1034,7 @@
 }
 
 /* section about tablet */
-@media (max-width: 1199px) {
+@media (max-width: 1400px) {
 	.section.about .image {
 		width: 120px;
 		margin-right: 0;
@@ -1106,7 +1106,7 @@
 }
 
 /* section resume tablet */
-@media (max-width: 1199px) {
+@media (max-width: 1400px) {
 	.section .col:nth-child(odd) {
 		padding-right: 20px;
 	}
@@ -2058,7 +2058,7 @@
 }
 
 /* section service tablet */
-@media (max-width: 1199px) {
+@media (max-width: 1400px) {
 	.service-items {
 		margin-top: -40px;
 	}
@@ -2241,7 +2241,7 @@
 }
 
 /* section portfolio tablet */
-@media (max-width: 1199px) {
+@media (max-width: 1400px) {
 	.section.works .filter-menu {
 		margin-bottom: 40px;
 	}
@@ -2406,7 +2406,7 @@
 }
 
 /* section pricing tablet */
-@media (max-width: 1199px) {
+@media (max-width: 1400px) {
 	
 }
 
@@ -2480,7 +2480,7 @@
 }
 
 /* section team tablet */
-@media (max-width: 1199px) {
+@media (max-width: 1400px) {
 	
 }
 
@@ -2561,7 +2561,7 @@
 }
 
 /* section testimonials tablet */
-@media (max-width: 1199px) {
+@media (max-width: 1400px) {
 	
 }
 
@@ -3126,7 +3126,7 @@ iframe, object {
 }
 
 /* section footer tablet */
-@media (max-width: 1199px) {
+@media (max-width: 1400px) {
 	.footer .copy {
 		display: none;
 	}
@@ -3549,7 +3549,7 @@ iframe, object {
 
 /* section portfolio tablet */
 
-@media (max-width: 1199px) {
+@media (max-width: 1400px) {
 	.blog-items {
 		width: 68.5%;
 	}
@@ -3782,7 +3782,7 @@ iframe, object {
 
 /* tablet */
 
-@media (max-width: 1199px) {
+@media (max-width: 1400px) {
 	.content-sidebar {
 		padding: 0 35px;
 		width: 31.5%;

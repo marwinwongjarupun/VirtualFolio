@@ -15,12 +15,13 @@
     }
   ],
   "hosting": {
-    "public": "out",
+    "public": "out/_site",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
     ]
+    
   },
   "emulators": {
     "singleProjectMode": true

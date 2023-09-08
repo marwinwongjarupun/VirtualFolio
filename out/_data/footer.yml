@@ -5,14 +5,14 @@
 
 main:
   social:
-    - title: "Pinterest"
-      icon: "fab fa-pinterest"
-      url: "https://www.pinterest.com/"
+    - title: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/marwinw/"
     - title: "Instagram"
       icon: "fab fa-instagram"
-      url: "https://instagram.com/"
-    - title: "Dribbble"
-      icon: "fab fa-dribbble"
-      url: "https://dribbble.com/"
-  text1: "E: alejandroa@gmail.com"
-  text2: "T: +1 (234) 567 80 98"
+      url: "https://www.instagram.com/anonymarss/"
+    - title: "Github"
+      icon: "fab fa-github"
+      url: "https://github.com/marwinwongjarupun"
+  text1: "E: mw@marwinwongjarupun.dev"
+  text2: "T: +66 966310831, +44 7752457758"

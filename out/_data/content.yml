@@ -5,179 +5,184 @@
 
 ### About [ about ]
 about:
-  image: "assets/img/man2.jpg"
-  text: "<p>Hello! I’m Daniel Curry. Web designer from USA, California, San Francisco. I have rich experience in web site design and building, also I am good at wordpress. I love to talk with you about our unique.</p>"
+  image: "assets/img/Profile Pic.jpg"
+  text: "<p>Hello! I’m Marwin Wongjarupun. I am a highly motivated and skilled graduate in Electronics and Computer Engineering with a strong interest in XR development. With a solid foundation in hardware and software systems, I possess a deep understanding of computer architecture, programming languages, and signal processing.</p>"
   list:
     - label: "Age"
-      value: "24"
+      value: "22"
 
     - label: "Residence"
-      value: "USA"
-
-    - label: "Freelance"
-      value: "Available"
+      value: "Bangkok"
 
     - label: "Address"
-      value: "San Francisco"
+      value: "Leeds"
 
     - label: "Phone"
-      value: "+1 256 254 84 56"
+      value: "+66 966310831"
 
     - label: "E-mail"
-      value: "alejandroa@gmail.com"
+      value: "marwinwongjarupun.dev"
 
   download:
     text: "Download CV"
-    link: "https://drive.google.com/"
+    link: "../assets/Marwin Wongjarupun CV.pdf"
 
 ### Services [ services ]
-services:
-  title: "Services"
-  items:
-    - icon: "fas fa-code"
-      name: "Web Development"
-      text: "Modern and mobile-ready website that will help you reach all of your marketing."
 
-    - icon: "fas fa-music"
-      name: "Music Writing"
-      text: "Music copying, writing, creating, transcription, arranging and services."
+# services:
+#   title: "Services"
+#   items:
+#     - icon: "fas fa-code"
+#       name: "Web Development"
+#       text: "Modern and mobile-ready website that will help you reach all of your marketing."
 
-    - icon: "fas fa-ad"
-      name: "Advetising"
-      text: "Advertising services include television, radio, print, mail, and web apps."
+#     - icon: "fas fa-music"
+#       name: "Music Writing"
+#       text: "Music copying, writing, creating, transcription, arranging and services."
 
-    - icon: "fas fa-gamepad"
-      name: "Game Development"
-      text: "Developing memorable and unique mobile android, ios and video games."
+#     - icon: "fas fa-ad"
+#       name: "Advetising"
+#       text: "Advertising services include television, radio, print, mail, and web apps."
 
-    - icon: "fas fa-camera"
-      name: "Photography"
-      text: "Our in-house photography services team made up of professional photographers."
+#     - icon: "fas fa-gamepad"
+#       name: "Game Development"
+#       text: "Developing memorable and unique mobile android, ios and video games."
 
-    - icon: "fas fa-mobile-alt"
-      name: "Android Application"
-      text: "Games, playing music, handle network transactions, interacting content etc."
-      
+#     - icon: "fas fa-camera"
+#       name: "Photography"
+#       text: "Our in-house photography services team made up of professional photographers."
+
+#     - icon: "fas fa-mobile-alt"
+#       name: "Android Application"
+#       text: "Games, playing music, handle network transactions, interacting content etc."
+    
 ### Pricing [ pricing ]
-pricing:
-  title: "Pricing"
-  items:
-    - icon: "fas fa-star"
-      name: "Basic"
-      price: "39"
-      price_before: "$"
-      price_after: "hour"
-      list:
-        - value: "Web Development"
-          disable: "no"
-        - value: "Advetising"
-          disable: "no"
-        - value: "Game Development"
-          disable: "no"
-        - value: "Music Writing"
-          disable: "yes"
-        - value: "Photography"
-          disable: "yes"
-      button: "Buy Now"
-      link: "contact/"
+# pricing:
+#   title: "Pricing"
+#   items:
+#     - icon: "fas fa-star"
+#       name: "Basic"
+#       price: "39"
+#       price_before: "$"
+#       price_after: "hour"
+#       list:
+#         - value: "Web Development"
+#           disable: "no"
+#         - value: "Advetising"
+#           disable: "no"
+#         - value: "Game Development"
+#           disable: "no"
+#         - value: "Music Writing"
+#           disable: "yes"
+#         - value: "Photography"
+#           disable: "yes"
+#       button: "Buy Now"
+#       link: "contact/"
           
-    - icon: "fas fa-rocket"
-      name: "Premium"
-      price: "59"
-      price_before: "$"
-      price_after: "hour"
-      list:
-        - value: "Web Development"
-          disable: "no"
-        - value: "Advetising"
-          disable: "no"
-        - value: "Game Development"
-          disable: "no"
-        - value: "Music Writing"
-          disable: "no"
-        - value: "Photography"
-          disable: "no"
-      button: "Buy Now"
-      link: "contact/"
+#     - icon: "fas fa-rocket"
+#       name: "Premium"
+#       price: "59"
+#       price_before: "$"
+#       price_after: "hour"
+#       list:
+#         - value: "Web Development"
+#           disable: "no"
+#         - value: "Advetising"
+#           disable: "no"
+#         - value: "Game Development"
+#           disable: "no"
+#         - value: "Music Writing"
+#           disable: "no"
+#         - value: "Photography"
+#           disable: "no"
+#       button: "Buy Now"
+#       link: "contact/"
 
 ### Resume [ resume ]
 resume:
   experience:
     title: "Experience"
     items:
-      - year: "2013 - Present"
-        name: "Art Director - Facebook Inc"
-        text: "Collaborate with creative and development teams on the execution of ideas."
+      - year: "August - December 2022"
+        name: "XR Foundations and Prototyping Bootcamp"
+        text: "Chosen as one of the 15 students for the Beyond Inclusion scholarship (out of 410 applicants)
+                    <br>Focused on C# programming and Unity VR Development"
 
-      - year: "2011 - 2012"
-        name: "Front-end Developer - Google Inc"
-        text: "Monitored technical aspects of the front-end delivery for several projects."
+      - year: "June - October 2022"
+        name: "University of Leeds Summer Internship"
+        text: "Added remote functionality to hip simulator (can simulate through cloud platform)"
 
-      - year: "2009 - 2010"
-        name: "Senior Developer - Abc Inc"
-        text: "Optimize website performance using latest technology."
+      - year: "June - August 2022"
+        name: "Summer Undergraduate Research Programme - CUHK"
+        text: "Created Pong-like game to encourage stroke patients to perform exercises that improve brain function"
         
   education:
     title: "Education"
     items:
-      - year: "2006 - 2008"
-        name: "Art University of New York"
-        text: "Bachelor's Degree in Computer Science ABC Technical Institute, Jefferson, Missouri"
+      - year: "2023 - 2024"
+        name: "Imperial College London"
+        text: "MRes Medical Device Design and Entrepreneurship"
 
-      - year: "2005 - 2006"
-        name: "Programming Course"
-        text: "Coursework - Git, WordPress, Javascript, iOS, Android."
+      - year: "2020 - 2023"
+        name: "University of Leeds"
+        text: "BEng Electronics and Computer Engineering"
 
-      - year: "2004 - 2005"
-        name: "Web Design Course"
-        text: "Converted Photoshop layouts to web pages using HTML, CSS, and JavaScript"
+      - year: "2016 - 2020"
+        name: "Triam Udom Suksa School"
+        text: "Science-Math-Chinese"
 
 ### Skills [ skills ]
 skills:
   columns:
     - type: "default" #skills progress type - default, dotted, circles, list
-      title: "Design Skills"
+      title: "Coding Skills"
       items:
-        - label: "Web Design"
-          value: "70" #0-100 progress in %
-
-        - label: "Illustrations"
+        - label: "C/C++"
           value: "90" #0-100 progress in %
 
-        - label: "Photoshop"
+        - label: "Python"
+          value: "70" #0-100 progress in %
+
+        - label: "Java"
           value: "75" #0-100 progress in %
 
-        - label: "Graphic Design"
+        - label: "Verilog"
+          value: "80" #0-100 progress in %
+
+        - label: "C#"
+          value: "85" #0-100 progress in %
+
+        - label: "HTML/CSS"
           value: "80" #0-100 progress in %
 
     - type: "dotted" #skills progress type - default, dotted, circles, list
       title: "Languages Skills"
       items:
         - label: "English"
-          value: "90" #0-100 progress in %
-
-        - label: "German"
-          value: "70" #0-100 progress in %
-
-        - label: "Italian"
-          value: "55" #0-100 progress in %
-
-        - label: "French"
-          value: "85" #0-100 progress in %
-
-    - type: "circles" #skills progress type - default, dotted, circles, list
-      title: "Coding Skills"
-      items:
-        - label: "WordPress"
           value: "95" #0-100 progress in %
 
-        - label: "PHP / MYSQL"
-          value: "75" #0-100 progress in %
+        - label: "Thai"
+          value: "90" #0-100 progress in %
 
-        - label: "Angular / JavaScript"
+        - label: "French"
+          value: "20" #0-100 progress in %
+
+        - label: "Chinese"
+          value: "50" #0-100 progress in %
+
+    - type: "circles" #skills progress type - default, dotted, circles, list
+      title: "Design Skills"
+      items:
+        - label: "UX/UX Design"
+          value: "80" #0-100 progress in %
+
+        - label: "Web Design"
           value: "85" #0-100 progress in %
 
-        - label: "HTML / CSS"
+        - label: "Photoshop"
+          value: "85" #0-100 progress in %
+
+        - label: "XR App Design"
           value: "90" #0-100 progress in %
 
     - type: "list" #skills progress type - default, dotted, circles, list
@@ -227,61 +232,61 @@ facts:
       name: "Music"
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       
-### Team [ team ]
-team:
-  title: "Our Team"
-  items:
-    - image: "assets/img/team/team1.jpg"
-      name: "Alejandro Abeyta"
-      role: "Web Developer"
-      social:
-        - url: "https://www.pinterest.com/"
-          icon: "fab fa-pinterest"
-        - url: "https://www.instagram.com/"
-          icon: "fab fa-instagram"
-        - url: "https://dribbble.com/"
-          icon: "fab fa-dribbble"
+# ### Team [ team ]
+# team:
+#   title: "Our Team"
+#   items:
+#     - image: "assets/img/team/team1.jpg"
+#       name: "Alejandro Abeyta"
+#       role: "Web Developer"
+#       social:
+#         - url: "https://www.pinterest.com/"
+#           icon: "fab fa-pinterest"
+#         - url: "https://www.instagram.com/"
+#           icon: "fab fa-instagram"
+#         - url: "https://dribbble.com/"
+#           icon: "fab fa-dribbble"
           
-    - image: "assets/img/team/team2.jpg"
-      name: "Peter Green"
-      role: "Back-end Developer"
-      social:
-        - url: "https://www.pinterest.com/"
-          icon: "fab fa-pinterest"
-        - url: "https://www.instagram.com/"
-          icon: "fab fa-instagram"
-        - url: "https://dribbble.com/"
-          icon: "fab fa-dribbble"
+#     - image: "assets/img/team/team2.jpg"
+#       name: "Peter Green"
+#       role: "Back-end Developer"
+#       social:
+#         - url: "https://www.pinterest.com/"
+#           icon: "fab fa-pinterest"
+#         - url: "https://www.instagram.com/"
+#           icon: "fab fa-instagram"
+#         - url: "https://dribbble.com/"
+#           icon: "fab fa-dribbble"
           
-### Testimonials [ testimonials ]
-testimonials:
-  title: "Testimonials"
-  items:
-    - image: "assets/img/testimonials/rev1.jpg"
-      name: "Helen Floyd"
-      role: "Art Director"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+# ### Testimonials [ testimonials ]
+# testimonials:
+#   title: "Testimonials"
+#   items:
+#     - image: "assets/img/testimonials/rev1.jpg"
+#       name: "Helen Floyd"
+#       role: "Art Director"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       
-    - image: "assets/img/testimonials/rev1.jpg"
-      name: "Helen Floyd"
-      role: "Art Director"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+#     - image: "assets/img/testimonials/rev1.jpg"
+#       name: "Helen Floyd"
+#       role: "Art Director"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 
-### Clients [ clients ]
-clients:
-  title: "Clients"
-  items:
-    - url: "https://www.google.com"
-      image: "assets/img/clients/client1.png"
+# ### Clients [ clients ]
+# clients:
+#   title: "Clients"
+#   items:
+#     - url: "https://www.google.com"
+#       image: "assets/img/clients/client1.png"
 
-    - url: "https://www.google.com"
-      image: "assets/img/clients/client2.png"
+#     - url: "https://www.google.com"
+#       image: "assets/img/clients/client2.png"
 
-    - url: "https://www.google.com"
-      image: "assets/img/clients/client3.png"
+#     - url: "https://www.google.com"
+#       image: "assets/img/clients/client3.png"
 
-    - url: "https://www.google.com"
-      image: "assets/img/clients/client4.png"
+#     - url: "https://www.google.com"
+#       image: "assets/img/clients/client4.png"
       
 ### Custom Text [ text ]
 text:
@@ -301,19 +306,19 @@ contacts_info:
   list:
     - label: "Phone"
       icon: "fas fa-phone"
-      value: "+ (231) 456 67 89"
+      value: "+66 966310831, +44 7752457758"
 
     - label: "Email"
       icon:  "fas fa-envelope"
-      value: "<a href='mailto:steve-pearson@gmail.com'>steve-pearson@gmail.com</a>"
+      value: "<a href='mailto:mw@marwinwongjarupun.dev'>mw@marwinwongjarupun.dev</a>"
 
     - label: "Address"
       icon: "fas fa-map-marker-alt"
-      value: "2621 W Pico Blvd, Los Angeles"
+      value: "Bangkok, Thailand"
     
-    - label: "Freelance Available"
+    - label: "Available"
       icon: "fas fa-user-tie"
-      value: "I am available for Freelance hire"
+      value: "I am available for full-time hire"
 
 ### Contact Form [ contacts-form ]
 contacts_form:
