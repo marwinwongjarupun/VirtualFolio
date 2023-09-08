@@ -26,6 +26,7 @@ author: "Admin"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://marwinwongjarupun.dev" # the base hostname & protocol for your site, e.g. http://example.com
 date_format: "%d %B %Y"
+url_own: "https://marwinwongjarupun.dev"
 
 # paginations & permalinks
 paginate: 9
