@@ -1,12 +1,11 @@
 ---
-title: Social Website
-category: Content
-category_slug: f-content
+title: Tic Tac Toe
+category: Unity
+category_slug: f-unity
 type: content
-image: assets/img/works/work8.jpg
-button_url: https://bslthemes.site/
+image: assets/img/works/work0.png
+button_url: https://marwinwongjarupun.dev/unity/2023/09/09/tic-tac-toe/
 ---
-
 So striking at of to welcomed resolved. Northward by described up household therefore attention. Excellence decisively nay man yet impression for contrasted remarkably.
 
 Forfeited you engrossed but gay sometimes explained. Another as studied it to evident. Merry sense given he be arise. Conduct at an replied removal an amongst. Remaining determine few her two cordially admitting old.
