@@ -3,6 +3,11 @@
 ### use navigation.yml file to re-order, delete or add section of each card
 ### here you can find all content in all pre-build sections
 
+### Logo
+
+logo:
+  image: "../assets/img/logo.png"
+
 ### About [ about ]
 about:
   image: "assets/img/Profile Pic.jpg"
