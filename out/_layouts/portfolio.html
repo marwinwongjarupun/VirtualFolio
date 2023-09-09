@@ -199,7 +199,7 @@ layout: default
                                                                 {% if work.video %}
                                 <!-- Embed the video using an iframe -->
                                 <div class="video-embed">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ADqxZliNa3w?si=KxmP_rPHORr2_azp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <iframe width="560" height="315" src="{{ work.video }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                 </div>
                                 {% endif %}
                                 {{ work.content }}
