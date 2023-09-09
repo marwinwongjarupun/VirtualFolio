@@ -2,7 +2,7 @@
 title: Pearson Project
 category: VR
 category_slug: f-VR
-image: assets/img/works/work0.png
+image: assets/img/works/pearson-app.webp
 type: content
 video: https://www.youtube.com/embed/vswJyWptw4Q?si=xUV7FXP1AX-7UsjV
 button_url:
