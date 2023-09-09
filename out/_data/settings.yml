@@ -11,8 +11,7 @@ settings:
 ### Portfolio Filters Settings
 portfolio:
   filters:
-    - name: "Video"
-      slug: "f-video"
+   
 
     - name: "VR"
       slug: "f-VR"
