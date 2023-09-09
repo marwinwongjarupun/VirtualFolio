@@ -1,13 +1,12 @@
 ---
-title: Tic Tac Toe
-category: Unity
-category_slug: f-unity
+title: Pearson Project
+category: VR
+category_slug: f-VR
 image: assets/img/works/work0.png
 type: content
-video: https://www.youtube.com/embed/ADqxZliNa3w?si=KxmP_rPHORr2_azp
+video: https://www.youtube.com/embed/vswJyWptw4Q?si=xUV7FXP1AX-7UsjV
 button_url:
 ---
-
 * Greatest properly off ham exercise all.
 * Unsatiable invitation its possession nor off.
 * All difficulty estimating unreserved increasing the solicitude.

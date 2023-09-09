@@ -196,10 +196,13 @@ layout: default
                             <div class="category">{{ work.category }}</div>
                             <h4>{{ work.title }}</h4>
                             <div class="single-post-text">
-                                                                {% if work.video %}
-                                <!-- Embed the video using an iframe -->
+                                {% if work.video %}
+                                <!-- Embed the video using an iframe with lazy loading -->
                                 <div class="video-embed">
-                                    <iframe width="560" height="315" src="{{ work.video }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <iframe width="560" height="315" src="{{ work.video }}" title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        allowfullscreen loading="lazy"></iframe>
                                 </div>
                                 {% endif %}
                                 {{ work.content }}
@@ -217,6 +220,7 @@ layout: default
                 </div>
             </div>
             {% endif %}
+
 
 
             {% endfor %}
