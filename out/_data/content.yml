@@ -21,7 +21,7 @@ about:
       value: "+66 966310831"
 
     - label: "E-mail"
-      value: "marwinwongjarupun.dev"
+      value: "mw@marwinwongjarupun.dev"
 
   download:
     text: "Download CV"
@@ -316,7 +316,7 @@ contacts_info:
       icon: "fas fa-map-marker-alt"
       value: "Bangkok, Thailand"
     
-    - label: "Available"
+    - label: "Availability"
       icon: "fas fa-user-tie"
       value: "I am available for full-time hire"
 
