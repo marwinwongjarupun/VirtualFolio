@@ -1,6 +1,7 @@
 {% assign navigation = site.data.navigation['main'] %}
 {% assign settings = site.data.settings['settings'] %}
 {% assign page_url = page.url | absolute_url %}
+{% assign logo = site.data.content['logo'] %}
 
 <!-- Header -->
 <header class="header">
@@ -15,8 +16,9 @@
 		<!-- logo -->
 		<div class="logo hover-masks-logo">
 			<a href="{{ site.url_own }}">
-				<span class="mask-lnk">{{ settings.logo_text }}</span>
-				<img class="mask-lnk mask-lnk-hover" src="../assets/img/favicon-32x32.png" alt="logo">
+				<img class="mask-lnk logo-img" src="{{ logo.image | relative_url}}" alt="logo">
+				<span class="mask-lnk mask-lnk-hover">{{ settings.logo_text }}</span>
+				
 			</a>
 		</div>
 		

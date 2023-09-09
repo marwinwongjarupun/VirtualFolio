@@ -30,7 +30,7 @@ layout: default
             </div>
         </div>
     </div>
-    
+
     <!-- mosue button -->
     <a href="#" class="mouse_btn" style="display: none;"><span class="icon fas fa-chevron-down"></span></a>
 
@@ -44,11 +44,13 @@ layout: default
         <div class="filter-menu content-box">
             <div class="filters">
                 <div class="btn-group">
-                    <label class="glitch-effect"><input type="radio" name="fl_radio" value=".box-item" />{{ ui_text.all }}</label>
+                    <label class="glitch-effect"><input type="radio" name="fl_radio" value=".box-item" />{{ ui_text.all
+                        }}</label>
                 </div>
                 {% for category in categories.filters %}
                 <div class="btn-group">
-                    <label data-text="Video"><input type="radio" name="fl_radio" value=".{{ category.slug }}" />{{ category.name }}</label>
+                    <label data-text="Video"><input type="radio" name="fl_radio" value=".{{ category.slug }}" />{{
+                        category.name }}</label>
                 </div>
                 {% endfor %}
             </div>
@@ -57,8 +59,8 @@ layout: default
         <!-- portfolio items -->
         <div class="box-items portfolio-items">
             {% for work in site.works %}
-            
-            {% if work.type == 'image' or work.type == '' %}            
+
+            {% if work.type == 'image' or work.type == '' %}
             <div class="box-item {{ work.category_slug }}">
                 <div class="image">
                     <a href="{{ work.image | relative_url }}" class="has-popup-image hover-animated">
@@ -79,7 +81,7 @@ layout: default
             </div>
             {% endif %}
 
-            {% if work.type == 'gallery' %}            
+            {% if work.type == 'gallery' %}
             <div class="box-item {{ work.category_slug }}">
                 <div class="image">
                     <a href="#gallery-{{ work.id | replace: '/', '-' }}" class="has-popup-gallery hover-animated">
@@ -101,12 +103,12 @@ layout: default
                         {% for img in gallery %}
                         <a href="{{ img | relative_url }}"></a>
                         {% endfor %}
-                    </div>	
+                    </div>
                 </div>
             </div>
             {% endif %}
 
-            {% if work.type == 'video' %}            
+            {% if work.type == 'video' %}
             <div class="box-item {{ work.category_slug }}">
                 <div class="image">
                     <a href="{{ work.video }}" class="has-popup-video hover-animated">
@@ -127,7 +129,7 @@ layout: default
             </div>
             {% endif %}
 
-            {% if work.type == 'link' %}            
+            {% if work.type == 'link' %}
             <div class="box-item {{ work.category_slug }}">
                 <div class="image">
                     <a href="{{ work.link }}" class="has-popup-link hover-animated" target="_blank">
@@ -143,12 +145,12 @@ layout: default
                                 </span>
                             </span>
                         </span>
-                    </a>	
+                    </a>
                 </div>
             </div>
             {% endif %}
 
-            {% if work.type == 'music' %}            
+            {% if work.type == 'music' %}
             <div class="box-item {{ work.category_slug }}">
                 <div class="image">
                     <a href="{{ work.music }}" class="has-popup-music hover-animated">
@@ -169,7 +171,7 @@ layout: default
             </div>
             {% endif %}
 
-            {% if work.type == 'content' %}            
+            {% if work.type == 'content' %}
             <div class="box-item {{ work.category_slug }}">
                 <div class="image">
                     <a href="#popup-{{ work.id | replace: '/', '-' }}" class="has-popup-media hover-animated">
@@ -177,7 +179,57 @@ layout: default
                         <span class="info circle">
                             <span class="centrize full-width">
                                 <span class="vertical-center">
-                                    <span class="icon fas fa-plus"></span>
+                                    <span class="icon fas fa-video"></span>
+                                    <span class="desc">
+                                        <span class="category">{{ work.category }}</span>
+                                        <span class="name">{{ work.title }}</span>
+                                    </span>
+                                </span>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+
+                <div id="popup-{{ work.id | replace: '/', '-' }}" class="popup-box mfp-fade mfp-hide">
+                    <div class="content">
+                        <div class="desc single-post-text">
+                            <div class="category">{{ work.category }}</div>
+                            <h4>{{ work.title }}</h4>
+                            <div class="single-post-text">
+                                {% if work.video %}
+                                <!-- Embed the video using an iframe with lazy loading -->
+                                <div class="video-embed">
+                                    <iframe width="560" height="315" src="{{ work.video }}" title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        allowfullscreen loading="lazy"></iframe>
+                                </div>
+                                {% endif %}
+                                {{ work.content }}
+                            </div>
+                            {% if work.button_url != '' %}
+                            <p>
+                                <a href="{{ work.button_url }}" target="_blank" class="btn hover-animated">
+                                    <span class="circle"></span>
+                                    <span class="lnk">{{ ui_text.view_project }}</span>
+                                </a>
+                            </p>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+
+            {% if work.type == 'content-img' %}            
+            <div class="box-item {{ work.category_slug }}">
+                <div class="image">
+                    <a href="#popup-{{ work.id | replace: '/', '-' }}" class="has-popup-media hover-animated">
+                        <img src="{{ work.image | relative_url }}" class="wp-post-image" alt="{{ work.title }}" />
+                        <span class="info circle">
+                            <span class="centrize full-width">
+                                <span class="vertical-center">
+                                    <span class="icon fas fa-image"></span>
                                     <span class="desc">
                                         <span class="category">{{ work.category }}</span>
                                         <span class="name">{{ work.title }}</span>
@@ -209,6 +261,8 @@ layout: default
                 </div>
             </div>
             {% endif %}
+
+
 
             {% endfor %}
 

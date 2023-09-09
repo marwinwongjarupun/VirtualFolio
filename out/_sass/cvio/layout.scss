@@ -90,8 +90,8 @@
 		@include transform(translateY(-50%));
 		img {
 			max-width: 100%;
-			width: auto;
-			height: auto;
+			width: 32px;
+			height: 32px;
 			display: block;
 		}
 		a {
@@ -244,6 +244,7 @@
 	-webkit-transition: opacity 0.7s cubic-bezier(0.165, 0.85, 0.45, 1), color 0.7s cubic-bezier(0.165, 0.85, 0.45, 1), transform 0.7s cubic-bezier(0.165, 0.85, 0.45, 1);
 	transition: opacity 0.7s cubic-bezier(0.165, 0.85, 0.45, 1), color 0.7s cubic-bezier(0.165, 0.85, 0.45, 1), transform 0.7s cubic-bezier(0.165, 0.85, 0.45, 1);
 }
+
 
 .hover-masks .mask-lnk.mask-lnk-hover, 
 .hover-masks-logo .mask-lnk.mask-lnk-hover {
@@ -3339,10 +3340,6 @@ iframe, object {
 .background-enabled .section.started .started-content .typed-cursor,
 .background-enabled .section.started .mouse_btn {
 	color: $white_color;
-}
-
-.background-enabled .header .logo img {
-	filter: brightness(0) invert(1);
 }
 
 .background-enabled .header .logo {

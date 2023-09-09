@@ -11,20 +11,22 @@ settings:
 ### Portfolio Filters Settings
 portfolio:
   filters:
-    - name: "Video"
-      slug: "f-video"
+   
 
-    - name: "Music"
-      slug: "f-music"
+    - name: "VR"
+      slug: "f-VR"
 
-    - name: "Links"
-      slug: "f-link"
+    - name: "AR"
+      slug: "f-AR"
 
-    - name: "Image"
-      slug: "f-image"
+    - name: "Medtech"
+      slug: "f-medtech"
 
-    - name: "Gallery"
-      slug: "f-gallery"
+    - name: "XR"
+      slug: "f-XR"
 
-    - name: "Content"
-      slug: "f-content"
+    - name: "Uni Projects"
+      slug: "f-uni-project"
+
+    - name: "Unity"
+      slug: "f-unity"
