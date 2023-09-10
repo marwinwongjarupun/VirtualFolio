@@ -8,6 +8,9 @@
 logo:
   image: "../assets/img/logo.png"
 
+logo-light:
+  image: "../assets/img/logo-light.png"
+
 ### About [ about ]
 about:
   image: "assets/img/Profile Pic.jpg"

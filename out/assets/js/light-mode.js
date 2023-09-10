@@ -1,4 +1,5 @@
 // Function to toggle between light and dark mode
+
 function toggleLightMode() {
     // Check the current mode by inspecting the body's class or style
     const body = document.body;
@@ -13,11 +14,19 @@ function toggleLightMode() {
         body.classList.add('light-mode');
         // Change the button icon to moon (dark mode)
         document.getElementById('toggle-theme-button').innerHTML = '<i class="fas fa-moon"></i>';
+        // Change the logo image to the light version
+        document.querySelectorAll('.logo-img').forEach(function(logoImg) {
+            logoImg.src = '/assets/img/logo-light.png'; // Replace with the correct image path
+        });
     } else {
         // Switch to dark mode
         body.classList.remove('light-mode');
         // Change the button icon to sun (light mode)
         document.getElementById('toggle-theme-button').innerHTML = '<i class="fas fa-sun"></i>';
+        // Change the logo image to the dark version
+        document.querySelectorAll('.logo-img').forEach(function(logoImg) {
+            logoImg.src = '/assets/img/logo.png'; // Replace with the correct image path
+        });
     }
 
     // Update the preference in local storage
@@ -30,6 +39,10 @@ let isLightMode = localStorage.getItem('lightMode') === 'true';
 // Apply light mode if the preference is set
 if (isLightMode) {
     document.body.classList.add('light-mode');
+    // Change the logo image to the light version
+    document.querySelectorAll('.logo-img').forEach(function(logoImg) {
+        logoImg.src = '/assets/img/logo-light.png'; // Replace with the correct image path
+    });
 }
 
 // Initialize the button icon based on the initial mode
