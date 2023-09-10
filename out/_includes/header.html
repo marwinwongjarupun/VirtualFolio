@@ -13,36 +13,44 @@
 		<!-- menu button -->
 		<a class="menu-btn"><span></span></a>
 
+
 		<!-- logo -->
 		<div class="logo hover-masks-logo">
 			<a href="{{ site.url_own }}">
 				<img class="mask-lnk logo-img" src="{{ logo.image | relative_url}}" alt="logo">
 				<span class="mask-lnk mask-lnk-hover">{{ settings.logo_text }}</span>
-				
+
 			</a>
 		</div>
-		
-		<!-- top menu -->						
+
+		<!-- top menu -->
 		<div class="top-menu hover-masks">
-			<div class="top-menu-nav">	
+			<div class="top-menu-nav">
 				<div class="menu-topmenu-container">
 					<ul class="menu">
 						{% for nav in navigation %}
 						{% assign nav_url = nav.url | absolute_url %}
-						<li class="menu-item {% if page_url == nav_url %} current-menu-item{% endif %}{% if nav.parent == 1 %} menu-item-has-children{% endif %}">
+						<li
+							class="menu-item {% if page_url == nav_url %} current-menu-item{% endif %}{% if nav.parent == 1 %} menu-item-has-children{% endif %}">
 							<a href="{{ nav.url | relative_url }}">{{ nav.title }}</a>
-                            {% if nav.parent == 1 %}
-                            <ul class="sub-menu">
-                                {% for subnav in nav.childs %}
-                                {% assign subnav_url = subnav.url | absolute_url %}
-                                <li class="menu-item{% if page_url == subnav_url %} current-menu-item{% endif %}"><a href="{{ subnav.url | relative_url }}">{{ subnav.title }}</a></li>
-                                {% endfor %}
-                            </ul>
-                            {% endif %}
+							{% if nav.parent == 1 %}
+							<ul class="sub-menu">
+								{% for subnav in nav.childs %}
+								{% assign subnav_url = subnav.url | absolute_url %}
+								<li class="menu-item{% if page_url == subnav_url %} current-menu-item{% endif %}"><a
+										href="{{ subnav.url | relative_url }}">{{ subnav.title }}</a></li>
+								{% endfor %}
+							</ul>
+							{% endif %}
 						</li>
 						{% endfor %}
+						<button id="toggle-theme-button">
+							<i class="fas fa-sun"></i> <!-- Icon for light mode -->
+							<i class="fas fa-moon"></i> <!-- Icon for dark mode -->
+						</button>
 					</ul>
 				</div>
+
 			</div>
 		</div>
 	</div>

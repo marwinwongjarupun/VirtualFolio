@@ -29,6 +29,12 @@ html {
 	margin-right: 0!important;
 }
 
+/* Define a class for the light mode */
+.light-mode {
+	background: $light_default_bg;
+	color: $light_default_color;
+  }
+
 body {
 	margin: 0;
 	padding: 0;

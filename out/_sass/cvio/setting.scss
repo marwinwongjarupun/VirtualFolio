@@ -1,17 +1,26 @@
 ﻿/* Setting */
 
-/* Background Colors */
+/* Dark Mode Variables */
 $default_bg: #101010;
 $extra_bg: #1E1E1E;
-$lines_color: rgba(255,255,255,0.07);
-
-/* Colors */
+$lines_color: rgba(255, 255, 255, 0.07);
 $default_color: #bbb;
 $extra_color: #999;
 $light_color: #eee;
 $white_color: #FFF;
 $active_color: #ffc107;
 $error_color: red;
+
+/* Light Mode Variables (Inverted Colors) */
+$light_default_bg: $white_color;
+$light_extra_bg: $light_color;
+$light_lines_color: rgba(0, 0, 0, 0.07);
+$light_default_color: #333; /* Adjust the text color for better readability */
+$light_extra_color: #666;
+$light_light_color: $default_color; /* Use the dark mode default color */
+$light_white_color: $default_bg; /* Use the dark mode background color */
+$light_active_color: $active_color;
+$light_error_color: $error_color;
 
 /* Fonts */
 $default_font: 'Poppins';

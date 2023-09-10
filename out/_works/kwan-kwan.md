@@ -1,8 +1,8 @@
 ---
 title: My Love
-category: XR, Medtech
+category: Koala
 category_slug: f-uni-project
-image: assets/img/works/Screenshot 2023-09-05 100405.png
+image: assets/img/works/IMG_2127.webp
 type: content-img
 button_url:
 ---
