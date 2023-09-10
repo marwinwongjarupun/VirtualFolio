@@ -3807,3 +3807,18 @@ iframe, object {
 		left: -5px;
 	}
 }
+
+/* subscribe form */
+
+#mc_embed_signup {
+	background: $default_bg;
+	clear: center;
+	font: 14px Poppins;
+	width: flex;
+  
+	h2 {
+	  color: $active_color;
+	  /* Change to your desired color code */
+	}
+  
+  }

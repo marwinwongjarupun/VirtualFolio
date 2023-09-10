@@ -3514,7 +3514,7 @@ iframe, object {
 	display: block;
 	font-size: 24px;
 	font-weight: 600;
-	color: #fff;
+	color: $light_white_color;
 	text-decoration: none;
 	word-wrap: break-word;
 	transition: all 0.7s cubic-bezier(0.165, 0.85, 0.45, 1) 0s;
@@ -3809,4 +3809,22 @@ iframe, object {
 		left: -5px;
 	}
 }
+
+/* subscribe form */
+
+#mc_embed_signup {
+	background: $light_default_bg;
+	clear: center;
+	font: 14px Poppins;
+	width: flex;
+  
+	h2 {
+	  color: $active_color;
+	  /* Change to your desired color code */
+	}
+  
+	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+  }
 }
+
