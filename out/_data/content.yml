@@ -20,13 +20,10 @@ about:
       value: "22"
 
     - label: "Residence"
-      value: "Bangkok"
+      value: "London"
 
     - label: "Address"
-      value: "Leeds"
-
-    - label: "Phone"
-      value: "+66 966310831"
+      value: "Bangkok, Thailand"
 
     - label: "E-mail"
       value: "mw@marwinwongjarupun.dev"
@@ -312,10 +309,6 @@ facts:
 contacts_info:
   title: "Contacts Info"
   list:
-    - label: "Phone"
-      icon: "fas fa-phone"
-      value: "+66 966310831, +44 7752457758"
-
     - label: "Email"
       icon:  "fas fa-envelope"
       value: "<a href='mailto:mw@marwinwongjarupun.dev'>mw@marwinwongjarupun.dev</a>"

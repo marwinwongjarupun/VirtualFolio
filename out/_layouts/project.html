@@ -1,0 +1,82 @@
+---
+layout: default
+---
+
+{% assign ui_text = site.data.ui-text['ui_text'] %}
+
+{% if page.author == nil %}
+	{% assign author = site.author %}
+{% else %}
+	{% assign author = page.author %}
+{% endif %}
+
+{% assign project_url = 'projects/' %} <!-- Change the URL path to your project posts -->
+
+<!-- Section Started -->
+<div class="section started section-title" id="section-post">
+
+    <!-- background -->
+    <div class="video-bg"{% if page.image != '' %} style="background-image: url({{ page.image | relative_url }});"{% endif %}>
+        <div class="video-bg-mask"></div>
+        <div class="video-bg-texture" id="grained_container"></div>
+    </div>
+
+    <!-- started content -->
+    <div class="centrize full-width">
+        <div class="vertical-center">
+            <div class="started-content">
+                <div class="date">{{ page.date | date: site.date_format }}</div>
+                <h1 class="h-title">{{ page.title }}</h1>
+                <div class="h-subtitles">
+                    <div class="h-subtitle typing-bread">
+                        <p class="breadcrumbs">
+                            <a href="{{ site.url_own }}">{{ ui_text.home }}</a> / <a href="{{ project_url | relative_url }}">{{ ui_text.projects }}</a> / {{ page.title }} <!-- Update the breadcrumb link for projects -->
+                        </p>
+                    </div>
+                    <span class="typed-bread"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- mosue button -->
+    <a href="#" class="mouse_btn" style="display: none;"><span class="icon fas fa-chevron-down"></span></a>
+</div>
+
+<div class="section project"> <!-- Update the section class to match your project styling -->
+    <div class="content">
+
+        <div class="project">
+            <div class="content-box">
+                <div class="single-project-text">
+                    {{ page.content }}
+                </div>
+                
+                <!-- Add any additional project-specific content here -->
+
+                <div class="project-text-bottom">
+                    <div class="social-share" data-title="{{ page.title }}" data-url="{{ page.url | absolute_url }}">
+                        <span>{{ ui_text.share }}:</span>
+                        <a class="share-btn share-btn-facebook share-btn-1" title="{{ ui_text.share_on }} Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a class="share-btn share-btn-twitter share-btn-2" title="{{ ui_text.share_on }} Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <!-- Add more social share buttons if needed -->
+                    </div>
+
+                    <!-- Customize the rest of the project-specific details as needed -->
+
+                    <div class="byline">
+                        {{ ui_text.by }} <span class="author">{{ author }}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add any project-specific navigation or related projects here -->
+
+        <div class="clear"></div>
+    </div>
+</div>
