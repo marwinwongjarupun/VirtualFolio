@@ -137,7 +137,8 @@
 				}
 				&:hover > a,
 				&.current-menu-item > a {
-					opacity: 1;
+					opacity: 1; /* Change opacity to 1 on hover and current-menu-item */
+					color: $light_white_color; /* Set the color to white on hover and current-menu-item */
 				}
 				&.menu-item-has-children > a .mask-lnk:after {
 					content: "\f078";
