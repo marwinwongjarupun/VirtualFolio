@@ -91,8 +91,8 @@
 		@include transform(translateY(-50%));
 		img {
 			max-width: 100%;
-			width: 32px;
-			height: 32px;
+			width: 40px;
+			height: 40px;
 			display: block;
 		}
 		a {
@@ -3345,7 +3345,7 @@ iframe, object {
 }
 
 .background-enabled .header .logo {
-	color: rgba(255, 255, 255, 0.5);
+	color: rgba(0, 0, 0, 0.5);
 }
 
 .background-enabled .header .logo strong {
@@ -3684,7 +3684,7 @@ iframe, object {
 	width: 100%;
 	border: none;
 	background: 0 0;
-	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 	border-radius: 0!important;
 	-webkit-border-radius: 0!important;
 }
@@ -3707,8 +3707,8 @@ iframe, object {
 	background: url(../images/search.svg) no-repeat center center;
 	background-size: contain;
 	font-size: 0;
-	opacity: .7;
-	filter: brightness(0) invert(1);
+	opacity: .3;
+	filter: brightness(0) invert(0);
 }
 
 .content-sidebar .widget-title {
@@ -3723,7 +3723,7 @@ iframe, object {
 
 .content-sidebar .widget-title:before {
 	content: '';
-	background: rgba(255, 255, 255, 0.1);
+	background: rgba(0, 0, 0, 0.1);
 	height: 1px;
 	position: absolute;
 	left: 0;
