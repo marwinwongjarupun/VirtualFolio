@@ -23,6 +23,7 @@
 */
 
 /* - Header */
+.light-mode {
 .header {
 	padding: 50px;
 	position: fixed;
@@ -3806,4 +3807,5 @@ iframe, object {
 	.page-numbers.prev, .nav-links .nav-previous {
 		left: -5px;
 	}
+}
 }
