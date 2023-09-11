@@ -252,13 +252,13 @@
 .hover-masks-logo .mask-lnk.mask-lnk-hover {
 	position: absolute;
 	opacity: 0;
-	@include transform(translateY(32px));
+	@include transform(translateY(40px));
 }
 
 .hover-masks a:hover .mask-lnk, 
 .hover-masks-logo a:hover .mask-lnk {
 	opacity: 1;
-	@include transform(translateY(-32px));
+	@include transform(translateY(-40px));
 }
 
 .hover-masks a:hover .mask-lnk.mask-lnk-hover, 
