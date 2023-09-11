@@ -23,6 +23,7 @@
 */
 
 /* - Header */
+.light-mode {
 .header {
 	padding: 50px;
 	position: fixed;
@@ -35,7 +36,7 @@
 		padding-top: 30px;
 		padding-bottom: 30px;
 		top: 0;
-		background: $default_bg;
+		background: $light_default_bg;
 	}
 	&:after {
 		content: '';
@@ -59,7 +60,7 @@
 			left: 0;
 			width: 100%;
 			height: 2px;
-			background: $white_color;
+			background: $light_white_color;
 			@include transition(all 0.3s ease 0s);
 		}
 		&:after {
@@ -72,7 +73,7 @@
 			left: 0;
 			width: 100%;
 			height: 2px;
-			background: $white_color;
+			background: $light_white_color;
 			margin-top: -1px;
 			@include transition(all 0.3s ease 0s);
 		}
@@ -85,7 +86,7 @@
 		font-size: $default_size;
 		line-height: 2.5;
 		font-weight: 600;
-		color: rgba(255,255,255,0.5);
+		color: rgba(0,0,0,0.5);
 		white-space: nowrap;
 		@include transform(translateY(-50%));
 		img {
@@ -95,12 +96,12 @@
 			display: block;
 		}
 		a {
-			color: rgba(255,255,255,0.5);
+			color: rgba(0,0,0,0.5);
 			text-decoration: none;
 			display: block;
 		}
 		strong {
-			color: $white_color;
+			color: $light_white_color;
 		}
 	}
 	.top-menu {
@@ -123,7 +124,7 @@
 					display: block;
 					font-size: 1em;
 					line-height: 2.5;
-					color: $white_color;
+					color: $light_white_color;
 					font-weight: 600;
 					opacity: 0.5;
 					text-decoration: none;
@@ -136,7 +137,8 @@
 				}
 				&:hover > a,
 				&.current-menu-item > a {
-					opacity: 1;
+					opacity: 1; /* Change opacity to 1 on hover and current-menu-item */
+					color: $light_white_color; /* Set the color to white on hover and current-menu-item */
 				}
 				&.menu-item-has-children > a .mask-lnk:after {
 					content: "\f078";
@@ -166,7 +168,7 @@
 		padding: 10px 0;
 		width: 190px;
 		text-align: left;
-		background: $extra_bg;
+		background: $light_extra_bg;
 		z-index: 50;
 		opacity: 0;
 		pointer-events: none;
@@ -185,7 +187,7 @@
 		left: 10px;
 		top: -12px;
 		border: 6px solid transparent;
-		border-bottom: 6px solid $extra_bg;
+		border-bottom: 6px solid $light_extra_bg;
 	}
 	.top-menu ul li:last-child .sub-menu:before, 
 	.top-menu-nav .children:before {
@@ -197,7 +199,7 @@
 		margin-left: 0;
 		padding: 8px 20px;
 		display: block;
-		border-bottom: 1px solid $lines_color;
+		border-bottom: 1px solid $light_lines_color;
 		height: auto;
 	}
 	.top-menu-nav .sub-menu li:last-child, 
@@ -209,7 +211,7 @@
 		margin-top: 0;
 		display: block;
 		font-size: $extra_small_size;
-		color: $white_color;
+		color: $light_white_color;
 		opacity: 0.5;
 	}
 	.top-menu-nav .sub-menu li .sub-menu, 
@@ -224,7 +226,7 @@
 		left: -12px;
 		top: 16px;
 		border: 6px solid transparent;
-		border-right: 6px solid $white_color;
+		border-right: 6px solid $light_white_color;
 		border-bottom: 6px solid transparent;
 	}
 }
@@ -270,7 +272,7 @@
 	top: 0;
 	overflow: auto;
 	height: 100%;
-	background: $default_bg;
+	background: $light_default_bg;
 	-webkit-overflow-scrolling: touch;
 	.menu-btn {
 		&:before {
@@ -371,7 +373,7 @@
 		top: -12px;
 		border: 6px solid transparent;
 		border-right: 6px solid transparent;
-		border-bottom: 6px solid $white_color;
+		border-bottom: 6px solid $light_white_color;
 	}
 	.header .top-menu ul li:last-child .sub-menu:before, .header .top-menu-nav .children:before {
 		right: 50%;
@@ -428,8 +430,8 @@
 		margin-right: -1px;
 		padding: 35px;
 		font-size: $default_size;
-		background: $default_bg;
-		border: 1px solid $lines_color;
+		background: $light_default_bg;
+		border: 1px solid $light_lines_color;
 		.single-post-text > *:first-child {
 			margin-top: 0;
 		}
@@ -442,7 +444,7 @@
 			vertical-align: top;
 			position: relative;
 			font-size: $large_size;
-			color: $white_color;
+			color: $light_white_color;
 			font-weight: 600;
 			@include transition(all 0.3s ease 0s);
 		}
@@ -503,7 +505,7 @@
 			max-width: 560px;
 			font-size: 20px;
 			font-weight: 300;
-			color: $white_color;
+			color: $light_white_color;
 			word-break: break-word;
 			-ms-word-wrap: break-word;
 			word-wrap: break-word;
@@ -531,7 +533,7 @@
 			font-size: 80px;
 			line-height: 90px;
 			font-weight: 500;
-			color: $white_color;
+			color: $light_white_color;
 			text-align: center;
 		}
 		.h-subtitle strong,
@@ -577,7 +579,7 @@
 				font-size: 18px;
 				line-height: 40px;
 				text-align: left;
-				color: $extra_color;
+				color: $light_extra_color;
 			}
 			.h-subtitle,
 			.typed-subtitle {
@@ -690,7 +692,7 @@
 			margin-top: -10px;
 			background: none;
 			font-size: 22px;
-			color: $white_color;
+			color: $light_white_color;
 			text-decoration: none;
 			@include transition(all 0.3s ease 0s);
 		}
@@ -709,14 +711,14 @@
 	top: auto;
 	font-size: $default_size;
 	line-height: 1.9;
-	color: rgba(255,255,255,0.5);
+	color: rgba(0,0,0,0.5);
 	font-weight: 400;
 	opacity: 1;
 }
 
 .section.started.section-title .started-content .typed-bread a,
 .section.started.layout-creative .started-content .typed-bread a {
-	color: $white_color;
+	color: $light_white_color;
 	text-decoration: none;
 	font-weight: 500;
 	opacity: 1;
@@ -1090,11 +1092,11 @@
 			margin: 0 0 5px 0;
 			display: inline-block;
 			font-size: $extra_small_size;
-			color: $extra_color;
+			color: $light_extra_color;
 		}
 		.name {
 			margin: 0 0 15px 0;
-			color: $light_color;
+			color: $light_light_color;
 			font-weight: 500;
 		}
 		&.active {
@@ -1150,7 +1152,7 @@
 				margin: 0 0 10px 0;
 				position: relative;
 				font-size: $default_size;
-				color: $light_color;
+				color: $light_light_color;
 				font-weight: 500;
 			}
 			.progress {
@@ -1299,7 +1301,7 @@
 						width: 0.82em;
 						height: 0.82em;
 						display: block;
-						background-color: $default_bg;
+						background-color: $light_default_bg;
 						@include border-radius(50%);
 					}
 					span {
@@ -2052,7 +2054,7 @@
 		}
 		.name {
 			margin: 15px 0;
-			color: $light_color;
+			color: $light_light_color;
 			font-weight: 500;
 		}
 	}
@@ -2108,7 +2110,7 @@
 			margin-right: 25px;
 			margin-top: 10px;
 			font-size: $default_size;
-			color: $light_color;
+			color: $light_light_color;
 			font-weight: 400;
 			cursor: pointer;
 			position: relative;
@@ -2160,7 +2162,7 @@
 					position: absolute;
 					top: 20px;
 					right: 20px;
-					color: $default_bg;
+					color: $light_default_bg;
 					font-size: 18px;
 					display: inline-block;
 					font-weight: normal;
@@ -2180,7 +2182,7 @@
 					display: block;
 					font-size: $large_size;
 					font-weight: 600;
-					color: $default_bg;
+					color: $light_default_bg;
 					word-wrap: break-word;
 				}
 			}
@@ -2202,7 +2204,7 @@
 			margin: 0;
 			display: block;
 			font-size: $small_size;
-			color: $default_bg;
+			color: $light_default_bg;
 			opacity: 0.6;
 		}
 	}
@@ -2234,7 +2236,7 @@
 			strong {
 				margin-bottom: 5px;
 				display: block;
-				color: $light_color;
+				color: $light_light_color;
 				font-weight: 500;
 			}
 		}
@@ -2302,7 +2304,7 @@
 		p {
 			margin: 0;
 			font-size: $default_size;
-			color: $light_color;
+			color: $light_light_color;
 		}
 	}
 }
@@ -2337,7 +2339,7 @@
 	}
 	.name {
 		margin: 15px 0;
-		color: $light_color;
+		color: $light_light_color;
 		font-weight: 500;
 	}
 	.amount {
@@ -2350,7 +2352,7 @@
 			font-size: $large_size * 2;
 			line-height: $large_size;
 			font-weight: 600;
-			color: $light_color;
+			color: $light_light_color;
 			.dollar,
 			.period {
 				position: absolute;
@@ -2360,7 +2362,7 @@
 				vertical-align: top;
 				font-size: $small_size;
 				line-height: $small_size;
-				color: $extra_color;
+				color: $light_extra_color;
 				font-weight: 400;
 			}
 			.period {
@@ -2396,7 +2398,7 @@
 					display: inline-block;
 					vertical-align: middle;
 					font-size: $extra_small_size;
-					color: $default_bg;
+					color: $light_default_bg;
 					background: $active_color;
 					font-weight: 300;
 					@include border-radius(2px);
@@ -2448,14 +2450,14 @@
 	}
 	.name {
 		margin: 30px 0 5px 0;
-		color: $light_color;
+		color: $light_light_color;
 		font-weight: 500;
 	}
 	.category {
 		margin: 0 0 5px 0;
 		position: relative;
 		display: inline-block;
-		color: $extra_color;
+		color: $light_extra_color;
 	}
 	.soc {
 		a {
@@ -2463,17 +2465,17 @@
 			display: inline-block;
 			vertical-align: top;
 			text-align: center;
-			color: $default_color;
+			color: $light_default_color;
 			@include transition(all 0.7s cubic-bezier(0.165, 0.85, 0.45, 1));
 			.icon {
 				font-size: $small_size;
-				color: $default_color;
+				color: $light_default_color;
 			}
 			&:hover {
-				color: $white_color;
+				color: $light_white_color;
 				opacity: 1;
 				.icon {
-					color: $white_color;
+					color: $light_white_color;
 				}
 			}
 		}
@@ -2549,12 +2551,12 @@
 	}
 	.name {
 		margin: 0 0 5px 0;
-		color: $light_color;
+		color: $light_light_color;
 		font-weight: 500;
 	}
 	.company {
 		font-size: $small_size;
-		color: $extra_color;
+		color: $light_extra_color;
 	}
 	.text {
 		clear: both;
@@ -3040,11 +3042,11 @@ iframe, object {
 		width: 100%;
 	}
 	th {
-		border: 2px solid $white_color;
+		border: 2px solid $light_white_color;
 		padding: 5px;
 	}
 	td {
-		border: 2px solid $white_color;
+		border: 2px solid $light_white_color;
 		padding: 5px;
 	}
 }
@@ -3070,7 +3072,7 @@ iframe, object {
 		margin: 2px 0 0 0;
 		font-size: $small_size;
 		line-height: 2;
-		color: $default_color;
+		color: $light_default_color;
 	}
 	.soc-box {
 		position: absolute;
@@ -3083,20 +3085,20 @@ iframe, object {
 		display: block;
 		margin-bottom: 20px;
 		text-align: center;
-		color: $default_color;
+		color: $light_default_color;
 		@include transition(all 0.7s cubic-bezier(0.165, 0.85, 0.45, 1));
 		&:last-child {
 			margin-bottom: 0;
 		}
 		.icon {
 			font-size: 18px;
-			color: $default_color;
+			color: $light_default_color;
 		}
 		&:hover {
-			color: $white_color;
+			color: $light_white_color;
 			opacity: 1;
 			.icon {
-				color: $white_color;
+				color: $light_white_color;
 			}
 		}
 	}
@@ -3107,7 +3109,7 @@ iframe, object {
 	position: absolute;
 	bottom: 100%;
 	right: 0;
-	color: $default_color;
+	color: $light_default_color;
 	font-size: $small_size;
 	line-height: 24px;
 	height: 24px;
@@ -3122,7 +3124,7 @@ iframe, object {
 		right: 0;
 		width: 50px;
 		height: 1px;
-		background: $white_color;
+		background: $light_white_color;
 	}
 }
 
@@ -3207,7 +3209,7 @@ iframe, object {
 .popup-box {
 	margin: 30px auto;
 	width: 520px;
-	background: $default_bg;
+	background: $light_default_bg;
 	position: relative;
 	padding: 0;
 }
@@ -3245,7 +3247,7 @@ iframe, object {
 	margin: 0 0 5px 0;
 	display: block;
 	font-size: $small_size;
-	color: $default_color;
+	color: $light_default_color;
 }
 
 .popup-box .desc h4 {
@@ -3253,7 +3255,7 @@ iframe, object {
 	display: block;
 	font-size: $large_size;
 	font-weight: 600;
-	color: $white_color;
+	color: $light_white_color;
 }
 
 .mfp-fade.mfp-bg {
@@ -3296,14 +3298,14 @@ iframe, object {
 	line-height: 54px!important;
 	opacity: 1!important;
 	font-weight: 300;
-	color: $white_color;
+	color: $light_white_color;
 	font-size: $large_size;
 	text-align: center!important;
 	font-family: 'Verdana' !important;
 }
 
 .mfp-close-btn-in .mfp-close {
-	color: $white_color!important;
+	color: $light_white_color!important;
 }
 
 .mfp-close-btn-in .popup-box .mfp-close, .mfp-close-btn-in .mfp-iframe-holder .mfp-close {
@@ -3339,31 +3341,31 @@ iframe, object {
 .background-enabled .section.started .started-content .typed-subtitle,
 .background-enabled .section.started .started-content .typed-cursor,
 .background-enabled .section.started .mouse_btn {
-	color: $white_color;
+	color: $light_white_color;
 }
 
 .background-enabled .header .logo {
-	color: rgba(255, 255, 255, 0.5);
+	color: rgba(0, 0, 0, 0.5);
 }
 
 .background-enabled .header .logo strong {
-	color: $white_color;
+	color: $light_white_color;
 }
 
 .background-enabled .header .top-menu ul li a:hover {
-	color: $white_color;
+	color: $light_white_color;
 }
 
 .section.started.background-enabled .started-content .h-title {
-	color: $white_color;
+	color: $light_white_color;
 }
 
 .background-enabled .header .top-menu-nav .sub-menu li a {
-	color: $white_color;
+	color: $light_white_color;
 }
 
 .background-enabled .header .top-menu-nav .sub-menu li a:hover {
-	color: $white_color;
+	color: $light_white_color;
 }
 
 .background-enabled .header, 
@@ -3391,7 +3393,7 @@ iframe, object {
 	left: 0px;
 	width: 100%;
 	height: 100%;
-	background: $default_bg;
+	background: $light_default_bg;
 	opacity: 0.4;
 	z-index: 2;
 }
@@ -3512,7 +3514,7 @@ iframe, object {
 	display: block;
 	font-size: 24px;
 	font-weight: 600;
-	color: #fff;
+	color: $light_white_color;
 	text-decoration: none;
 	word-wrap: break-word;
 	transition: all 0.7s cubic-bezier(0.165, 0.85, 0.45, 1) 0s;
@@ -3682,7 +3684,7 @@ iframe, object {
 	width: 100%;
 	border: none;
 	background: 0 0;
-	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 	border-radius: 0!important;
 	-webkit-border-radius: 0!important;
 }
@@ -3705,8 +3707,8 @@ iframe, object {
 	background: url(../images/search.svg) no-repeat center center;
 	background-size: contain;
 	font-size: 0;
-	opacity: .7;
-	filter: brightness(0) invert(1);
+	opacity: .3;
+	filter: brightness(0) invert(0);
 }
 
 .content-sidebar .widget-title {
@@ -3721,7 +3723,7 @@ iframe, object {
 
 .content-sidebar .widget-title:before {
 	content: '';
-	background: rgba(255, 255, 255, 0.1);
+	background: rgba(0, 0, 0, 0.1);
 	height: 1px;
 	position: absolute;
 	left: 0;
@@ -3811,7 +3813,7 @@ iframe, object {
 /* subscribe form */
 
 #mc_embed_signup {
-	background: $default_bg;
+	background: $light_default_bg;
 	clear: center;
 	font: 14px Poppins;
 	width: flex;
@@ -3821,4 +3823,8 @@ iframe, object {
 	  /* Change to your desired color code */
 	}
   
+	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
   }
+}
+
