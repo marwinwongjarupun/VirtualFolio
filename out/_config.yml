@@ -84,3 +84,5 @@ sass:
   style: compressed
 
 markdown:  kramdown
+
+google_analytics: G-F4YG2QY3CQ
