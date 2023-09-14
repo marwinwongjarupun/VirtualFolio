@@ -338,7 +338,7 @@
 
 
 	/* header tablet */
-	@media (max-width: 1500px) {
+	@media (max-width: 1199px) {
 		.header .logo {
 			position: relative;
 			top: 0;
@@ -518,7 +518,7 @@
 	}
 
 	/* section tablet */
-	@media (max-width: 1500px) {
+	@media (max-width: 1199px) {
 		.section {
 			padding-left: 50px;
 			padding-right: 50px;
@@ -899,7 +899,7 @@
 	}
 
 	/* section started tablet */
-	@media (max-width: 1500px) {
+	@media (max-width: 1199px) {
 
 		.section.started.layout-creative,
 		.section.started.layout-post-creative {
@@ -1074,7 +1074,7 @@
 	}
 
 	/* section started mobile landscape */
-	@media screen and (orientation:landscape) and (min-device-width: 319px) and (max-device-width: 1500px) {
+	@media screen and (orientation:landscape) and (min-device-width: 319px) and (max-device-width: 1199px) {
 		.section.started .started-content .logo {
 			position: absolute;
 			left: -30px;
@@ -1174,7 +1174,7 @@
 	}
 
 	/* section about tablet */
-	@media (max-width: 1500px) {
+	@media (max-width: 1199px) {
 		.section.about .image {
 			width: 120px;
 			margin-right: 0;
@@ -1255,7 +1255,7 @@
 	}
 
 	/* section resume tablet */
-	@media (max-width: 1500px) {
+	@media (max-width: 1199px) {
 		.section .col:nth-child(odd) {
 			padding-right: 20px;
 		}
@@ -2255,7 +2255,7 @@
 	}
 
 	/* section service tablet */
-	@media (max-width: 1500px) {
+	@media (max-width: 1199px) {
 		.service-items {
 			margin-top: -40px;
 		}
@@ -2461,7 +2461,7 @@
 	}
 
 	/* section portfolio tablet */
-	@media (max-width: 1500px) {
+	@media (max-width: 1199px) {
 		.section.works .filter-menu {
 			margin-bottom: 40px;
 		}
@@ -2651,7 +2651,7 @@
 	}
 
 	/* section pricing tablet */
-	@media (max-width: 1500px) {}
+	@media (max-width: 1199px) {}
 
 	/* section pricing mobile */
 	@media (max-width: 720px) {
@@ -2733,7 +2733,7 @@
 	}
 
 	/* section team tablet */
-	@media (max-width: 1500px) {}
+	@media (max-width: 1199px) {}
 
 	/* section team mobile */
 	@media (max-width: 720px) {
@@ -2822,7 +2822,7 @@
 	}
 
 	/* section testimonials tablet */
-	@media (max-width: 1500px) {}
+	@media (max-width: 1199px) {}
 
 	/* section testimonials mobile */
 	@media (max-width: 720px) {
@@ -3364,7 +3364,7 @@
 		padding: 0;
 		position: fixed;
 		bottom: 50px;
-		left: 50px;
+		left: 25px;
 		right: 50px;
 		width: auto;
 		height: 1px;
@@ -3445,11 +3445,16 @@
 	}
 
 	/* section footer tablet */
-	@media (max-width: 1500px) {
+
+	@media (max-width: 1400px) {
 		.footer .copy {
 			display: none;
 		}
-
+		
+	}
+	
+	@media (max-width: 1199px) {
+		
 		.footer .follow-label {
 			display: none;
 		}
@@ -3875,7 +3880,7 @@
 
 	/* section portfolio tablet */
 
-	@media (max-width: 1500px) {
+	@media (max-width: 1199px) {
 		.blog-items {
 			width: 68.5%;
 		}
@@ -4109,7 +4114,7 @@
 
 	/* tablet */
 
-	@media (max-width: 1500px) {
+	@media (max-width: 1199px) {
 		.content-sidebar {
 			padding: 0 35px;
 			width: 31.5%;
