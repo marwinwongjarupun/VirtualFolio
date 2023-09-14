@@ -3055,7 +3055,7 @@ iframe, object {
 	padding: 0;
 	position: fixed;
 	bottom: 50px;
-	left: 25px;
+	left: 50px;
 	right: 50px;
 	width: auto;
 	height: 1px;
@@ -3127,7 +3127,7 @@ iframe, object {
 }
 
 /* section footer tablet */
-@media (max-width: 1400px) {
+@media (max-width: 1500px) {
 	.footer .copy {
 		display: none;
 	}
