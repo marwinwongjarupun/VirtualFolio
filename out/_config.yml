@@ -42,7 +42,11 @@ formsubmit_email: "mw@marwinwongjarupun.dev" # sign up on https://formsubmit.io/
 
 # collections
 collections:
-  - works
+  works:
+    output: true
+    
+  portfolio:
+    output: true
 
 # archives
 jekyll-archives:
