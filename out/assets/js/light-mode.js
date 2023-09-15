@@ -13,7 +13,7 @@ function toggleLightMode() {
         // Switch to light mode
         body.classList.add('light-mode');
         // Change the button icon to moon (dark mode)
-        document.getElementById('toggle-theme-button').innerHTML = '<i class="fas fa-moon"></i>';
+        document.getElementById('toggle-theme-button').innerHTML = '<i class="fas fa-solid fa-lightbulb"></i>';
         // Change the logo image to the light version
         document.querySelectorAll('.logo-img').forEach(function(logoImg) {
             logoImg.src = '/assets/img/logo-light.png'; // Replace with the correct image path
@@ -22,7 +22,7 @@ function toggleLightMode() {
         // Switch to dark mode
         body.classList.remove('light-mode');
         // Change the button icon to sun (light mode)
-        document.getElementById('toggle-theme-button').innerHTML = '<i class="fas fa-sun"></i>';
+        document.getElementById('toggle-theme-button').innerHTML = '<i class="fas fa-regular fa-lightbulb"></i>';
         // Change the logo image to the dark version
         document.querySelectorAll('.logo-img').forEach(function(logoImg) {
             logoImg.src = '/assets/img/logo.png'; // Replace with the correct image path
@@ -46,7 +46,7 @@ if (isLightMode) {
 }
 
 // Initialize the button icon based on the initial mode
-document.getElementById('toggle-theme-button').innerHTML = isLightMode ? '<i class="fas fa-moon"></i>' : '<i class="fas fa-sun"></i>';
+document.getElementById('toggle-theme-button').innerHTML = isLightMode ? '<i class="fas fa-solid fa-lightbulb"></i>' : '<i class="fas fa-regular fa-lightbulb"></i>';
 
 // Call the function when the button is clicked
 document.getElementById('toggle-theme-button').addEventListener('click', toggleLightMode);
