@@ -85,7 +85,7 @@ layout: default
                 {% if page == paginator.page %}
                   <span class="page-numbers current">{{ page }}</span>
                 {% elsif page == 1 %}
-                  <a href="{{ '/' | relative_url }}" class="page-numbers">{{ page }}</a>
+                  <a href="{{ '/blog' | relative_url }}" class="page-numbers">{{ page }}</a>
                 {% else %}
                   <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}" class="page-numbers">{{ page }}</a>
                 {% endif %}
