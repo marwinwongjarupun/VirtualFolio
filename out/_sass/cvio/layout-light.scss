@@ -34,8 +34,8 @@
 		@include transition(all 0.7s cubic-bezier(0.165, 0.85, 0.45, 1));
 
 		&.fixed {
-			padding-top: 30px;
-			padding-bottom: 30px;
+			padding-top: 20px;
+			padding-bottom: 0px;
 			top: 0;
 			background: $light_default_bg;
 		}
@@ -89,7 +89,7 @@
 		.logo {
 			position: absolute;
 			overflow: hidden;
-			top: 50%;
+			top: 30%;
 			width: 200px;
 			font-size: $default_size;
 			line-height: 2.5;
@@ -3708,6 +3708,7 @@
 	.background-enabled .section.started {
 		background: transparent;
 		border-bottom-color: transparent;
+		//transparent background
 	}
 
 	@media (max-width: 480px) {
@@ -4165,3 +4166,4 @@
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 	}
 }
+
