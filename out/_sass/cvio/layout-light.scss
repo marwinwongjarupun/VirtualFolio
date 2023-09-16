@@ -35,7 +35,7 @@
 
 		&.fixed {
 			padding-top: 20px;
-			padding-bottom: 0px;
+			padding-bottom: 20px;
 			top: 0;
 			background: $light_default_bg;
 		}
@@ -49,6 +49,7 @@
 
 		.head-top {
 			position: relative;
+			
 		}
 
 		.menu-btn {
@@ -89,7 +90,7 @@
 		.logo {
 			position: absolute;
 			overflow: hidden;
-			top: 30%;
+			top: 50%;
 			width: 200px;
 			font-size: $default_size;
 			line-height: 2.5;

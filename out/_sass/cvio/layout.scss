@@ -33,7 +33,7 @@
 	@include transition(all 0.7s cubic-bezier(0.165, 0.85, 0.45, 1));
 	&.fixed {
 		padding-top: 20px;
-		padding-bottom: 0px;
+		padding-bottom: 20px;
 		top: 0;
 		background: $default_bg;
 	}
@@ -80,7 +80,7 @@
 	.logo {
 		position: absolute;
 		overflow: hidden;
-		top: 30%;
+		top: 50%;
 		width: 200px;
 		font-size: $default_size;
 		line-height: 2.5;
