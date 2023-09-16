@@ -6,5 +6,4 @@ image: assets/img/works/mach-zehnder.webp
 type: content-img
 button_url:
 ---
-* Created Pong-like game to encourage stroke patients to perform exercises that improve brain function
-* Developed using Unity, C#, and Oculus Quest 2
+* created microfluidic device that uses microwave sensor to differentiate NaCl solutions with dielectric constants ranging from 10 to 60, which theoretically corresponds to 1%-20% NaCl concentration at 300 GHz.
