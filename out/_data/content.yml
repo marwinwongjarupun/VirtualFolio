@@ -6,10 +6,10 @@
 ### Logo
 
 logo:
-  image: "../assets/img/logo.png"
+  image: "../assets/img/logo-dark-new.png"
 
 logo-light:
-  image: "../assets/img/logo-light.png"
+  image: "../assets/img/logo-light-new.png"
 
 ### About [ about ]
 about:
