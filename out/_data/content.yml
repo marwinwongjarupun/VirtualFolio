@@ -164,16 +164,16 @@ skills:
       title: "Languages Skills"
       items:
         - label: "English"
-          value: "95" #0-100 progress in %
+          value: "90" #0-100 progress in %
 
         - label: "Thai"
           value: "90" #0-100 progress in %
 
         - label: "French"
-          value: "20" #0-100 progress in %
+          value: "40" #0-100 progress in %
 
         - label: "Chinese"
-          value: "50" #0-100 progress in %
+          value: "60" #0-100 progress in %
 
     - type: "circles" #skills progress type - default, dotted, circles, list
       title: "Design Skills"
