@@ -19,7 +19,8 @@
 		<div class="logo hover-masks-logo">
 			<a href="{{ site.url_own }}">
 				<img class="mask-lnk logo-img" src="{{ logo.image | relative_url}}" alt="logo">
-				<img class="mask-lnk logo-img" src="{{ logo-light.image | relative_url}}" alt="logo" style="display: none;">
+				<img class="mask-lnk logo-img" src="{{ logo-light.image | relative_url}}" alt="logo"
+					style="display: none;">
 				<span class="mask-lnk mask-lnk-hover">{{ settings.logo_text }}</span>
 
 			</a>
@@ -46,15 +47,16 @@
 							{% endif %}
 						</li>
 						{% endfor %}
-						<li id="toggle-theme-button" class="menu-item" style="padding-top:7px;">
-					
+						<li class="menu-item">
+							<div id="toggle-theme-button"></div>
 						</li>
+
 					</ul>
-					
+
 				</div>
-				
+
 			</div>
 		</div>
-		
+
 	</div>
 </header>
