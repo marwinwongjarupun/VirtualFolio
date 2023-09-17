@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "How to create a cake"
+title: Introduction
 date: 2023-09-15
 category:
-  - VR
-image: assets/img/blog/blog_1.jpg
+  - Introduction
+image: assets/img/blog/pic-me.webp
 author: Marwin Wongjarupun
 tags: VR XR Unity
 ---
-This is a test, welcome to paradise
+Hi, my name is Marwin.
 
 [^posts]: Footnote test.
