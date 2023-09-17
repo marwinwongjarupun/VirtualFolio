@@ -24,6 +24,11 @@
 	- Animations
 */
 
+/* added light mode */
+.light-mode {
+	color: $light_default_color;
+	background: $light_default_bg;
+}
 /* - Basic */
 html {
 	margin-right: 0!important;
