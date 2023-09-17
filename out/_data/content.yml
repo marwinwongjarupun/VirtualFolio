@@ -196,16 +196,16 @@ skills:
         - label: "Website hosting"
           value: "" #0-100 progress in %
 
-        - label: "iOS and android apps"
+        - label: "Circuit Design"
           value: "" #0-100 progress in %
 
-        - label: "Create logo design"
+        - label: "Communication Systems"
           value: "" #0-100 progress in %
 
         - label: "Git"
           value: "" #0-100 progress in %
 
-        - label: "FPGAs"
+        - label: "Microprocessors & FPGAs"
           value: "" #0-100 progress in %
 
         - label: "Distributed Computing"
