@@ -202,19 +202,19 @@ skills:
         - label: "Create logo design"
           value: "" #0-100 progress in %
 
-        - label: "Design for print"
+        - label: "Git"
           value: "" #0-100 progress in %
 
-        - label: "Modern and mobile-ready"
+        - label: "FPGAs"
           value: "" #0-100 progress in %
 
-        - label: "Advertising services include"
+        - label: "Distributed Computing"
           value: "" #0-100 progress in %
 
         - label: "Graphics and animations"
           value: "" #0-100 progress in %
 
-        - label: "Search engine marketing"
+        - label: "Embedded Systems"
           value: "" #0-100 progress in %
 
 ### Facts [ facts ]
