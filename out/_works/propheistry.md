@@ -4,6 +4,6 @@ category: VR
 category_slug:  f-VR
 image: assets/img/works/propheistry.webp
 type: content
-video: https://www.youtube.com/embed/xZss7-WzMXA?si=88NZMdGxZPRiLCcO
+video-id: xZss7-WzMXA
 button_url: propheistry
 ---

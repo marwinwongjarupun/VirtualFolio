@@ -4,7 +4,7 @@ category: VR
 category_slug: f-VR
 image: assets/img/works/pearson-app.webp
 type: content
-video: https://www.youtube.com/embed/vswJyWptw4Q?si=xUV7FXP1AX-7UsjV
+video-id: vswJyWptw4Q
 button_url: pearson-project
 ---
 * created as part of Pearson assignment

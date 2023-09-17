@@ -4,7 +4,7 @@ category: Unity
 category_slug: f-unity
 image: assets/img/works/tic-tac-toe.webp
 type: content
-video: https://www.youtube.com/embed/ADqxZliNa3w?si=KxmP_rPHORr2_azp
+video-id: ADqxZliNa3w
 button_url: tic-tac-toe/
 ---
 * Eligibility test for XR Bootcamp
