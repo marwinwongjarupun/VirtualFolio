@@ -175,7 +175,7 @@ layout: default
             <div class="box-item {{ work.category_slug }}">
                 <div class="image">
                     <a href="#popup-{{ work.id | replace: '/', '-' }}" class="has-popup-media hover-animated">
-                        <img src="{{ work.image | relative_url }}" class="wp-post-image" alt="{{ work.title }}" />
+                        <img src="{{ work.image | relative_url }}" class="wp-post-image" alt="{{ work.title }}" loading="lazy"/>
                         <span class="info circle">
                             <span class="centrize full-width">
                                 <span class="vertical-center">
@@ -225,7 +225,7 @@ layout: default
             <div class="box-item {{ work.category_slug }}">
                 <div class="image">
                     <a href="#popup-{{ work.id | replace: '/', '-' }}" class="has-popup-media hover-animated">
-                        <img src="{{ work.image | relative_url }}" class="wp-post-image" alt="{{ work.title }}" />
+                        <img src="{{ work.image | relative_url }}" class="wp-post-image" alt="{{ work.title }}" loading="lazy"/>
                         <span class="info circle">
                             <span class="centrize full-width">
                                 <span class="vertical-center">

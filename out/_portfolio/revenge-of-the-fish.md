@@ -1,8 +1,8 @@
 ---
 layout: project
-title:  AR to VR Training Platform to Improve Brain Function
+title:  Microfluidic Integrated Microwave Sensor Using Additive and Subtractive Manufacturing
 date:   2023-09-16
-image: assets/img/works/cuhk-surp.webp
+image: assets/img/works/revenge-of-the-fish.webp
 author: Marwin Wongjarupun
 ---
 **Abstract:**

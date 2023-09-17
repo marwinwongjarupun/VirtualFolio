@@ -1,7 +1,7 @@
 ---
 title: CUHK SURP Project
 category: XR, Medtech
-category_slug: f-XR f-medtech
+category_slug: f-XR f-medtech f-AR f-VR
 image: assets/img/works/cuhk-surp.webp
 type: content
 video: https://www.youtube.com/embed/MCj5u6JrW0Y?si=SajfWdtlm4uMnemS
