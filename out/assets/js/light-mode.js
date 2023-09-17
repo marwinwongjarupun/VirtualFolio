@@ -12,7 +12,7 @@ function toggleLightMode() {
         // Switch to light mode
         body.classList.add('light-mode');
         // Change the button icon to moon (dark mode)
-        document.getElementById('toggle-theme-button').innerHTML = '<span class="material-icons">light_mode</span> <span style="font-size: 34px;">|</span> <span class="material-symbols-outlined">dark_mode</span>';
+        document.getElementById('toggle-theme-button').innerHTML = '<span class="material-icons" style="font-size:20px;">light_mode</span> <span style="font-size: 28px;">|</span> <span class="material-symbols-outlined" style="font-size:20px;">dark_mode</span>';
         // Change the logo image to the light version
         document.querySelectorAll('.logo-img').forEach(function(logoImg) {
             logoImg.src = '/assets/img/logo-light-new.png'; // Replace with the correct image path
@@ -21,7 +21,7 @@ function toggleLightMode() {
         // Switch to dark mode
         body.classList.remove('light-mode');
         // Change the button icon to sun (light mode)
-        document.getElementById('toggle-theme-button').innerHTML = '<span class="material-symbols-outlined">light_mode</span> <span style="font-size: 34px;">|</span> <span class="material-icons">dark_mode</span>';
+        document.getElementById('toggle-theme-button').innerHTML = '<span class="material-symbols-outlined"style="font-size:20px;">light_mode</span> <span style="font-size: 28px;">|</span> <span class="material-icons"style="font-size:20px;">dark_mode</span>';
         // Change the logo image to the dark version
         document.querySelectorAll('.logo-img').forEach(function(logoImg) {
             logoImg.src = '/assets/img/logo-dark-new.png'; // Replace with the correct image path
@@ -45,7 +45,7 @@ if (isLightMode) {
 }
 
 // Initialize the button icon based on the initial mode
-document.getElementById('toggle-theme-button').innerHTML = isLightMode ? '<span class="material-icons" ;">light_mode</span> <span style="font-size: 34px;">|</span> <span class="material-symbols-outlined">dark_mode</span>' : '<span class="material-symbols-outlined" ;">light_mode</span> <span style="font-size: 34px;">|</span> <span class="material-icons">dark_mode</span>';
+document.getElementById('toggle-theme-button').innerHTML = isLightMode ? '<span class="material-icons" style="font-size:20px;">light_mode</span> <span style="font-size: 28px;">|</span> <span class="material-symbols-outlined"style="font-size:20px;">dark_mode</span>' : '<span class="material-symbols-outlined" style="font-size:20px;">light_mode</span> <span style="font-size: 28px;">|</span> <span class="material-icons"style="font-size:20px;">dark_mode</span>';
 
 // Call the function when the button is clicked
 document.getElementById('toggle-theme-button').addEventListener('click', toggleLightMode);
