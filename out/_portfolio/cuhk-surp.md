@@ -19,7 +19,7 @@ Stroke is a major cause of adult disability, with about 80% of survivors experie
 Our goal is to leverage virtual reality to significantly increase the number of exercise repetitions stroke patients can perform. By introducing interactivity and gamification to otherwise repetitive and monotonous exercises, we aim to make rehabilitation more engaging and effective.
 
 
-<img src="../../assets/img/gifs/background.gif" alt="Background" width="100%">
+<img src="../../assets/img/gifs/background.gif" alt="Background" width="100%" loading="lazy">
 
 
 **Chosen Exercise:**
@@ -27,7 +27,7 @@ Our goal is to leverage virtual reality to significantly increase the number of 
 Skateboard Activity
 
 
-<img src="../../assets/img/gifs/skateboard.gif" alt="Skateboard" class="responsive-image">
+<img src="../../assets/img/gifs/skateboard.gif" alt="Skateboard" class="responsive-image" loading="lazy">
 
 
 **Inspiration:**
@@ -43,7 +43,7 @@ to be elderly people, wanted to create a game they might be familiar with
 
 
 
-<img src="../../assets/img/gifs/atari.gif" alt="Atari" class="responsive-image">
+<img src="../../assets/img/gifs/atari.gif" alt="Atari" class="responsive-image" loading="lazy">
 
 
 

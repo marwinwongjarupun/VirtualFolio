@@ -10,7 +10,7 @@ Microfluidics, a field that manipulates and controls fluids on the microscale, h
 **First Design**
 
 
-<img src="../../assets/img/gifs/first-design.gif" alt="first-design" class="responsive-image">
+<img src="../../assets/img/gifs/first-design.gif" alt="first-design" class="responsive-image" loading="lazy">
 
 
 
@@ -19,7 +19,7 @@ In this project, two microfluidic integrated microwave sensor designs have been 
 **Second Design**
 
 
-<img src="../../assets/img/works/second-design.webp" alt="second-design" class="responsive-image">
+<img src="../../assets/img/works/second-design.webp" alt="second-design" class="responsive-image" loading="lazy">
 
 
 Based on simulations, the second design is able to differentiate NaCl solutions with epsilons (dielectric constants) ranging from 10 - 60. This is likely to be able to distinguish NaCl solutions from 1%-20% concentration at 300 GHz. Further experiments will still need to be made to validate these results, as there is no prior research on how NaCl solutions will react at such high frequencies. There are many advantages to such a sensor. It has a small size effective at sensing microliter liquid volume, has an easy design and fabrication thanks to AM and SM techniques, and facilitates noninvasive and contactless measurements. These advantages are applicable in field such as medical technologies, where remote sensing for NaCl and glucose concentrations can make use of these useful features.
@@ -27,4 +27,4 @@ Based on simulations, the second design is able to differentiate NaCl solutions 
 **Simulation Result**
 
 
-<img src="../../assets/img/works/sim-result.webp" alt="sim-result" class="responsive-image">
+<img src="../../assets/img/works/sim-result.webp" alt="sim-result" class="responsive-image" loading="lazy">
