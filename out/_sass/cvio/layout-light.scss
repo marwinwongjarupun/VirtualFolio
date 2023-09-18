@@ -40,6 +40,7 @@
 			top: 0;
 			background: $light_default_bg;
 		}
+		
 
 		&:after {
 			content: '';
@@ -795,7 +796,7 @@
 
 	.section.started+.section,
 	.section.started.layout-creative+.section {
-		margin-top: 70px;
+		margin-top: 0px;
 	}
 
 	.section.started.section-title .started-content .typed-bread,

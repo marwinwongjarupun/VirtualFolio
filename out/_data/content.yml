@@ -211,7 +211,7 @@ skills:
         - label: "Distributed Computing"
           value: "" #0-100 progress in %
 
-        - label: "Graphics and animations"
+        - label: "Unity Game Engine"
           value: "" #0-100 progress in %
 
         - label: "Embedded Systems"
