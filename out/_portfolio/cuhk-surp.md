@@ -27,7 +27,7 @@ Our goal is to leverage virtual reality to significantly increase the number of 
 Skateboard Activity
 
 
-<img src="../../assets/img/gifs/skateboard.gif" alt="Skateboard" width="100%">
+<img src="../../assets/img/gifs/skateboard.gif" alt="Skateboard" class="responsive-image">
 
 
 **Inspiration:**
@@ -43,7 +43,7 @@ to be elderly people, wanted to create a game they might be familiar with
 
 
 
-<img src="../../assets/img/gifs/atari.gif" alt="Atari" width="100%">
+<img src="../../assets/img/gifs/atari.gif" alt="Atari" class="responsive-image">
 
 
 

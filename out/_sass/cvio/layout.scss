@@ -4212,3 +4212,17 @@ object {
 	}
 
 }
+
+/* Default style for desktop */
+.responsive-image {
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media query for mobiles */
+@media (max-width: 720px) {
+    .responsive-image {
+        width: 100%;
+    }
+}
