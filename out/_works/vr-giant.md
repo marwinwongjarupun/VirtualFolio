@@ -8,4 +8,4 @@ video-id: xZss7-WzMXA
 button_url: vr-giant
 ---
 * VR game where you are a giant picking off other players
-* inspired by Attack of the Squirrel and Squid Game
+* inspired by Attack of the Squirrels and Squid Game
