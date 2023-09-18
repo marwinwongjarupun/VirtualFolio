@@ -645,11 +645,14 @@
     /*
 		Search
 	*/
-	var sjs = SimpleJekyllSearch({
-	  searchInput: document.getElementById('search-input'),
-	  resultsContainer: document.getElementById('results-container'),
-	  json: '/search.json'
-	});
+	if (window.location.href.includes("/blog/")) {
+        var sjs = SimpleJekyllSearch({
+			searchInput: document.getElementById('search-input'),
+			resultsContainer: document.getElementById('results-container'),
+			json: '/search.json'
+		  });
+    }
+	
 	
 } )( jQuery );
 
