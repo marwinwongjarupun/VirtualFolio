@@ -2778,7 +2778,7 @@
 				height: 20px;
 				background: none;
 				font-size: 22px;
-				color: #FFF;
+				color: $light_white_color;
 				text-decoration: none;
 				@include transition(all 0.3s ease 0s);
 			}
@@ -4054,7 +4054,7 @@
 		position: relative;
 		font-size: 20px;
 		line-height: normal;
-		color: #fff;
+		color: $light_white_color;
 	}
 
 	.content-sidebar .widget-title:before {
