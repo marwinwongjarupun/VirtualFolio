@@ -225,17 +225,17 @@ facts:
       name: "Custom Keyboards"
       text: "I build custom keyboards!"
 
-    - icon: "fas fa-gamepad"
-      name: "Gaming"
-      text: "I like to play Valorant with friends!"
+    - icon: "fas fa-music"
+      name: "Piano"
+      text: "I like to the piano!"
 
-    - icon: "fas fa-chess"
-      name: "Chess"
-      text: "I play online chess!"
+    - icon: "fas fa-laptop-code"
+      name: "Machine Learning"
+      text: "ML allows me to make data-driven decisions more effectively!"
 
-    - icon: "fas fa-headphones"
-      name: "Music"
-      text: "My favorite artist is the Weeknd!"
+    - icon: "fas fa-chalkboard-teacher"
+      name: "Human-Computer Interaction"
+      text: "I enjoy building intuitive and user-friendly interfaces"
       
 # ### Team [ team ]
 # team:
