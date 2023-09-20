@@ -3042,7 +3042,7 @@
 
 	.post-comments .post-comment {
 		padding: 20px 0;
-		border-top: 1px solid #dddddd;
+		border-top: 1px solid $light_light_color;
 	}
 
 	.post-comments .post-comment:first-child {
@@ -3110,7 +3110,7 @@
 	}
 
 	.post-text-bottom .byline span {
-		color: #eee;
+		color: $light_light_color;
 	}
 
 	.post-text-bottom span.cat-links a {
@@ -3156,13 +3156,13 @@
 	.post-comments ul.children {
 		padding: 20px 20px 0 100px;
 		border-top: none;
-		background: #f6f6f6;
+		background: $light_light_color;
 	}
 
 	.post-comments ul.children ul.children {
 		padding: 20px 0 0 40px;
 		border-top: none;
-		background: #f6f6f6;
+		background: $light_light_color;
 	}
 
 	.comment-info {
@@ -3171,12 +3171,12 @@
 
 	.comment-info span.comment-time {
 		font-size: 11px;
-		color: #999;
+		color: $light_extra_color;
 	}
 
 	.comment-info span.comment-date {
 		font-size: 11px;
-		color: #999;
+		color: $light_extra_color;
 	}
 
 	.comment-info span.comment-reply {
@@ -3196,11 +3196,11 @@
 		left: 120%;
 		display: block;
 		white-space: nowrap;
-		color: #999;
+		color: $light_extra_color;
 	}
 
 	.comment-respond .title_inner small a {
-		color: #999;
+		color: $light_extra_color;
 	}
 
 	.section .pager,
@@ -3218,12 +3218,12 @@
 	}
 
 	.page-numbers.current {
-		color: #999;
+		color: $light_extra_color;
 	}
 
 	.page-links,
 	.nav-links {
-		color: #999;
+		color: $light_extra_color;
 	}
 
 	.nav-links {
