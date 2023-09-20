@@ -46,8 +46,41 @@
       </div>
       <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js" defer loading="lazy"></script>
 
-      <script
-        type="text/javascript">(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; fnames[5] = 'BIRTHDAY'; ftypes[5] = 'birthday'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
+      <script type="text/javascript" defer="true">
+        function loadMailchimpScript() {
+          var script = document.createElement('script');
+          script.src = '../assets/js/jquery.min.js'; // Replace with the actual URL to jQuery
+          script.onload = function() {
+            // jQuery is loaded, now you can load your Mailchimp script
+            (function($) {
+              window.fnames = new Array();
+              window.ftypes = new Array();
+              fnames[0] = 'EMAIL';
+              ftypes[0] = 'email';
+              fnames[1] = 'FNAME';
+              ftypes[1] = 'text';
+              fnames[2] = 'LNAME';
+              ftypes[2] = 'text';
+              fnames[3] = 'ADDRESS';
+              ftypes[3] = 'address';
+              fnames[4] = 'PHONE';
+              ftypes[4] = 'phone';
+              fnames[5] = 'BIRTHDAY';
+              ftypes[5] = 'birthday';
+            })(jQuery);
+            
+            // After jQuery is loaded, you can use jQuery.noConflict and initialize Mailchimp
+            var $mcj = jQuery.noConflict(true);
+      
+            // Now you can use $mcj instead of $ for your Mailchimp code here
+      
+          };
+          document.head.appendChild(script);
+        }
+      
+        // Load the Mailchimp script when the window is ready
+        window.addEventListener('load', loadMailchimpScript);
+      </script>
     </div>
 
 
