@@ -3024,8 +3024,8 @@ object {
 }
 
 .post-comments {
-	margin-top: 60px;
-	background: $default_bg
+	margin: 60px 35px 0px 35px;
+	background: $default_bg;
 }
 
 .post-comments .comments,
@@ -4232,4 +4232,8 @@ object {
     .responsive-image {
         width: 80%;
     }
+}
+
+.title_inner {
+	margin-left: -35px;
 }
