@@ -34,9 +34,22 @@
   <link rel="stylesheet" href="{{ 'assets/css/magnific-popup.css' | relative_url }}" />
   <link rel="stylesheet" href="{{ 'assets/css/animate.css' | relative_url }}" />
   <link rel="stylesheet" href="{{ 'assets/css/jarallax.css' | relative_url }}" />
-  <link rel="stylesheet" href="{{ 'assets/css/swiper.css' | relative_url }}" />
-  <link rel="stylesheet" href="{{ 'assets/css/fontawesome.css' | relative_url }}" />
-  <link rel="stylesheet" href="{{ 'assets/css/syntax.css' | relative_url }}" />
+  <link rel="preload" href="{{ 'assets/css/swiper.css' | relative_url }}" as="style" onload="this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="{{ 'assets/css/swiper.css' | relative_url }}">
+  </noscript>
+
+  <link rel="preload" href="{{ 'assets/css/fontawesome.css' | relative_url }}" as="style"
+    onload="this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="{{ 'assets/css/fontawesome.css' | relative_url }}">
+  </noscript>
+
+  <link rel="preload" href="{{ 'assets/css/syntax.css' | relative_url }}" as="style" onload="this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="{{ 'assets/css/syntax.css' | relative_url }}">
+  </noscript>
+
 
   {% assign settings = site.data.settings['settings'] %}
 
