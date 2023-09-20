@@ -3025,6 +3025,7 @@ object {
 
 .post-comments {
 	margin-top: 60px;
+	background: $default_bg
 }
 
 .post-comments .comments,
@@ -3036,7 +3037,7 @@ object {
 
 .post-comments .post-comment {
 	padding: 20px 0;
-	border-top: 1px solid #dddddd;
+	border-top: 1px solid $light_color !important;
 }
 
 .post-comments .post-comment:first-child {
@@ -3104,7 +3105,7 @@ object {
 }
 
 .post-text-bottom .byline span {
-	color: #eee;
+	color: $light_color !important;
 }
 
 .post-text-bottom span.cat-links a {
@@ -3150,13 +3151,13 @@ object {
 .post-comments ul.children {
 	padding: 20px 20px 0 100px;
 	border-top: none;
-	background: #f6f6f6;
+	background: $light_color !important;
 }
 
 .post-comments ul.children ul.children {
 	padding: 20px 0 0 40px;
 	border-top: none;
-	background: #f6f6f6;
+	background: $light_color !important;
 }
 
 .comment-info {
@@ -3165,12 +3166,12 @@ object {
 
 .comment-info span.comment-time {
 	font-size: 11px;
-	color: #999;
+	color: $extra_color !important;
 }
 
 .comment-info span.comment-date {
 	font-size: 11px;
-	color: #999;
+	color: $extra_color !important;
 }
 
 .comment-info span.comment-reply {
@@ -3190,11 +3191,11 @@ object {
 	left: 120%;
 	display: block;
 	white-space: nowrap;
-	color: #999;
+	color: $extra_color !important;
 }
 
 .comment-respond .title_inner small a {
-	color: #999;
+	color: $extra_color !important;
 }
 
 .section .pager,
@@ -3212,12 +3213,12 @@ object {
 }
 
 .page-numbers.current {
-	color: #999;
+	color: $extra_color;
 }
 
 .page-links,
 .nav-links {
-	color: #999;
+	color: $extra_color;
 }
 
 .nav-links {

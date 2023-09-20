@@ -3031,6 +3031,7 @@
 
 	.post-comments {
 		margin-top: 60px;
+		background: $light_default_bg
 	}
 
 	.post-comments .comments,
@@ -3042,7 +3043,7 @@
 
 	.post-comments .post-comment {
 		padding: 20px 0;
-		border-top: 1px solid $light_light_color;
+		border-top: 1px solid $light_light_color !important;
 	}
 
 	.post-comments .post-comment:first-child {
@@ -3156,13 +3157,13 @@
 	.post-comments ul.children {
 		padding: 20px 20px 0 100px;
 		border-top: none;
-		background: $light_light_color;
+		background: $light_light_color !important;
 	}
 
 	.post-comments ul.children ul.children {
 		padding: 20px 0 0 40px;
 		border-top: none;
-		background: $light_light_color;
+		background: $light_light_color !important;
 	}
 
 	.comment-info {
@@ -3171,12 +3172,12 @@
 
 	.comment-info span.comment-time {
 		font-size: 11px;
-		color: $light_extra_color;
+		color: $light_extra_color !important;
 	}
 
 	.comment-info span.comment-date {
 		font-size: 11px;
-		color: $light_extra_color;
+		color: $light_extra_color !important;
 	}
 
 	.comment-info span.comment-reply {
@@ -3196,11 +3197,11 @@
 		left: 120%;
 		display: block;
 		white-space: nowrap;
-		color: $light_extra_color;
+		color: $light_extra_color !important;
 	}
 
 	.comment-respond .title_inner small a {
-		color: $light_extra_color;
+		color: $light_extra_color !important;
 	}
 
 	.section .pager,
