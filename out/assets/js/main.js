@@ -308,14 +308,14 @@
 	/*
 		Menu on Mobile
 	*/
-	$('header').on('click', '.menu-btn', function(){
+	$('header').on('click', '.menu-btn', function () {
+		
+		
 		if($('header').hasClass('active')){
 			$('header').removeClass('active');
 			$('.footer .soc').fadeIn();
 			$('body').addClass('loaded');
-			if($('.video-bg').length) {
-				$('body').addClass('background-enabled');
-			}
+			
 		} else {
 			$('header').addClass('active');
 			$('.footer .soc').hide();
