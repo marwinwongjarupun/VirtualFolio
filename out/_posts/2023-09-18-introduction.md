@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introduction
+title: From VR Dreams to Medtech Realities
 date: 2023-09-15
 category:
   - Introduction
@@ -10,9 +10,8 @@ image_h: 4080
 author: Marwin Wongjarupun
 tags: VR XR Unity
 ---
-# **Journey Through the Digital Realm: From VR Dreams to Medtech Realities**
-
 Hey there, fellow explorers of the digital frontier! I'm Marwin Wongjarupun, and I'm thrilled to welcome you to my corner of the internet. Here's a glimpse into the world that is me:
+
 
 **A Medtech Enthusiast:** My heart beats to the rhythm of medical technology innovation. From groundbreaking surgical procedures to wearable health trackers, the possibilities in the realm of medtech have me utterly captivated. In this blog, I'll be your guide through the ever-evolving landscape of healthcare technology, bringing you the latest news, insights, and my own take on the exciting advancements that promise to revolutionize the way we care for our well-being.
 
