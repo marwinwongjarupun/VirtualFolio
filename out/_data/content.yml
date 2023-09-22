@@ -227,7 +227,7 @@ facts:
 
     - icon: "fas fa-music"
       name: "Piano"
-      text: "I like to the piano!"
+      text: "I like to play the piano!"
 
     - icon: "fas fa-laptop-code"
       name: "Machine Learning"
