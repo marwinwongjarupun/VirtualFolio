@@ -325,3 +325,9 @@ contacts_info:
 contacts_form:
   title: "Contact Form"
 
+### Mailchimp [ mailchimp ]
+mail_chimp:
+  url: "../assets/minify/mc-validate-min.js"
+
+jquery:
+  url: "../assets/js/jquery.min.js"

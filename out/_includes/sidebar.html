@@ -1,5 +1,6 @@
 {% assign ui_text = site.data.ui-text['ui_text'] %}
-
+{% assign mail_chimp = site.data.content['mail_chimp'] %}
+{% assign jquery_link = site.data.content['jquery'] %}
 <div class="content-sidebar">
   <aside id="secondary" class="widget-area">
     <div id="search" class="widget widget_search">
@@ -44,12 +45,12 @@
           </div>
         </form>
       </div>
-      <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js" defer loading="lazy"></script>
+      <script type="text/javascript" src="{{mail_chimp.url || relative_url}}" defer loading="lazy"></script>
 
       <script type="text/javascript" defer="true">
         function loadMailchimpScript() {
           var script = document.createElement('script');
-          script.src = '../assets/js/jquery.min.js'; // Replace with the actual URL to jQuery
+          script.src = '{{jquery_link.url || relative_url }}'; // Replace with the actual URL to jQuery
           script.onload = function() {
             // jQuery is loaded, now you can load your Mailchimp script
             (function($) {
@@ -68,16 +69,16 @@
               fnames[5] = 'BIRTHDAY';
               ftypes[5] = 'birthday';
             })(jQuery);
-            
+
             // After jQuery is loaded, you can use jQuery.noConflict and initialize Mailchimp
             var $mcj = jQuery.noConflict(true);
-      
+
             // Now you can use $mcj instead of $ for your Mailchimp code here
-      
+
           };
           document.head.appendChild(script);
         }
-      
+
         // Load the Mailchimp script when the window is ready
         window.addEventListener('load', loadMailchimpScript);
       </script>
