@@ -237,73 +237,73 @@ facts:
       name: "Human-Computer Interaction"
       text: "I enjoy building intuitive and user-friendly interfaces!"
       
-# ### Team [ team ]
-# team:
-#   title: "Our Team"
-#   items:
-#     - image: "assets/img/team/team1.jpg"
-#       name: "Alejandro Abeyta"
-#       role: "Web Developer"
-#       social:
-#         - url: "https://www.pinterest.com/"
-#           icon: "fab fa-pinterest"
-#         - url: "https://www.instagram.com/"
-#           icon: "fab fa-instagram"
-#         - url: "https://dribbble.com/"
-#           icon: "fab fa-dribbble"
+### Team [ team ]
+team:
+  title: "Our Team"
+  items:
+    - image: "assets/img/team/team1.jpg"
+      name: "Alejandro Abeyta"
+      role: "Web Developer"
+      social:
+        - url: "https://www.pinterest.com/"
+          icon: "fab fa-pinterest"
+        - url: "https://www.instagram.com/"
+          icon: "fab fa-instagram"
+        - url: "https://dribbble.com/"
+          icon: "fab fa-dribbble"
           
-#     - image: "assets/img/team/team2.jpg"
-#       name: "Peter Green"
-#       role: "Back-end Developer"
-#       social:
-#         - url: "https://www.pinterest.com/"
-#           icon: "fab fa-pinterest"
-#         - url: "https://www.instagram.com/"
-#           icon: "fab fa-instagram"
-#         - url: "https://dribbble.com/"
-#           icon: "fab fa-dribbble"
+    - image: "assets/img/team/team2.jpg"
+      name: "Peter Green"
+      role: "Back-end Developer"
+      social:
+        - url: "https://www.pinterest.com/"
+          icon: "fab fa-pinterest"
+        - url: "https://www.instagram.com/"
+          icon: "fab fa-instagram"
+        - url: "https://dribbble.com/"
+          icon: "fab fa-dribbble"
           
-# ### Testimonials [ testimonials ]
-# testimonials:
-#   title: "Testimonials"
-#   items:
-#     - image: "assets/img/testimonials/rev1.jpg"
-#       name: "Helen Floyd"
-#       role: "Art Director"
-#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+### Testimonials [ testimonials ]
+testimonials:
+  title: "Testimonials"
+  items:
+    - image: "assets/img/testimonials/rev1.jpg"
+      name: "Helen Floyd"
+      role: "Art Director"
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       
-#     - image: "assets/img/testimonials/rev1.jpg"
-#       name: "Helen Floyd"
-#       role: "Art Director"
-#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    - image: "assets/img/testimonials/rev1.jpg"
+      name: "Helen Floyd"
+      role: "Art Director"
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 
-# ### Clients [ clients ]
-# clients:
-#   title: "Clients"
-#   items:
-#     - url: "https://www.google.com"
-#       image: "assets/img/clients/client1.png"
+### Clients [ clients ]
+clients:
+  title: "Clients"
+  items:
+    - url: "https://www.google.com"
+      image: "assets/img/clients/client1.png"
 
-#     - url: "https://www.google.com"
-#       image: "assets/img/clients/client2.png"
+    - url: "https://www.google.com"
+      image: "assets/img/clients/client2.png"
 
-#     - url: "https://www.google.com"
-#       image: "assets/img/clients/client3.png"
+    - url: "https://www.google.com"
+      image: "assets/img/clients/client3.png"
 
-#     - url: "https://www.google.com"
-#       image: "assets/img/clients/client4.png"
+    - url: "https://www.google.com"
+      image: "assets/img/clients/client4.png"
       
-### Custom Text [ text ]
-# text:
-#   title: "Custom Text"
-#   text: "
-#         <p>
-#             Now there is more fashion. There is no so-called trends. Now chase after anything not necessary — nor for fashionable color nor the shape, nor for style. Think about the content that you want to invest in a created object, and only then will form. The thing is your spirit. A spirit unlike forms hard copy.
-#         </p>
-#         <p>
-#             Here choose yourself like that, without any looking back, do your personal, home, small fashion, and all will be well.
-#         </p>
-#         "
+## Custom Text [ text ]
+text:
+  title: "Custom Text"
+  text: "
+        <p>
+            Now there is more fashion. There is no so-called trends. Now chase after anything not necessary — nor for fashionable color nor the shape, nor for style. Think about the content that you want to invest in a created object, and only then will form. The thing is your spirit. A spirit unlike forms hard copy.
+        </p>
+        <p>
+            Here choose yourself like that, without any looking back, do your personal, home, small fashion, and all will be well.
+        </p>
+        "
 
 ### Contact Info [ contacts-info ]
 contacts_info:
