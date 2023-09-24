@@ -178,7 +178,7 @@ skills:
     - type: "circles" #skills progress type - default, dotted, circles, list
       title: "Design Skills"
       items:
-        - label: "UX/UX Design"
+        - label: "UX/UI Design"
           value: "80" #0-100 progress in %
 
         - label: "Web Design"
