@@ -575,7 +575,7 @@
 				position: absolute;
 				left: calc(20% + 35px);
 				bottom: 50px;
-				max-width: 560px;
+				max-width: 1200px;
 				font-size: 20px;
 				font-weight: 300;
 				color: $light_white_color;
@@ -898,6 +898,7 @@
 			left: 50vw;
 			top: 60vh;
 			bottom: auto;
+			font-size: 2vw;
 		}
 	}
 
