@@ -26,7 +26,7 @@ about:
       value: "Bangkok, Thailand"
 
     - label: "E-mail"
-      value: "mw@marwinwongjarupun.dev"
+      value: "marwin111@gmail.com"
 
   download:
     text: "Download CV"
@@ -311,7 +311,7 @@ contacts_info:
   list:
     - label: "Email"
       icon:  "fas fa-envelope"
-      value: "<a href='mailto:mw@marwinwongjarupun.dev'>mw@marwinwongjarupun.dev</a>"
+      value: "<a href='mailto:marwin111@gmail.com'>marwin111@gmail.com</a>"
 
     - label: "Address"
       icon: "fas fa-map-marker-alt"
