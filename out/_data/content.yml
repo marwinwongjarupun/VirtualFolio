@@ -19,12 +19,6 @@ about:
     - label: "Age"
       value: "23"
 
-    - label: "Residence"
-      value: "London"
-
-    - label: "Address"
-      value: "Bangkok, Thailand"
-
     - label: "E-mail"
       value: "marwin111@gmail.com"
 
@@ -108,10 +102,21 @@ resume:
   experience:
     title: "Experience"
     items:
+      - year: "September 2023 - September 2024"
+        name: "Imperial Graduate Student Researcher"
+        text: "Completed 5-year business plan looking at market access, healthcare economics & financial forecast
+                    <br>Designed CAD model prototype for syringe pump and cell sorter, controlled using Arduino Giga"
+
+      - year: "June - August 2024"
+        name: "Dr.POM Innovation Lead and Tech Specialist Intern"
+        text: "Prototyped user interface of remote patient monitoring app to connect with 5 medical devices
+                    <br>Led 4 team members in direction of application based on market research and existing applications"
+
       - year: "August - December 2022"
         name: "XR Foundations and Prototyping Bootcamp"
-        text: "Chosen as one of the 15 students for the Beyond Inclusion scholarship (out of 410 applicants)
-                    <br>Focused on C# programming and Unity VR Development"
+        text: "Created 5 VR games using C# programming and Unity VR to develop on the Oculus Quest 2
+
+                    <br>Developed 1 multiplayer hide-and-seek prop game using Photon engine "
 
       - year: "June - October 2022"
         name: "University of Leeds Summer Internship"
@@ -307,7 +312,7 @@ text:
 
 ### Contact Info [ contacts-info ]
 contacts_info:
-  title: "Contacts Info"
+  title: "Contact Info"
   list:
     - label: "Email"
       icon:  "fas fa-envelope"
@@ -315,11 +320,9 @@ contacts_info:
 
     - label: "Address"
       icon: "fas fa-map-marker-alt"
-      value: "Bangkok, Thailand"
+      value: "Hong Kong"
     
-    - label: "Availability"
-      icon: "fas fa-user-tie"
-      value: "I am available for full-time hire"
+   
 
 ### Contact Form [ contacts-form ]
 contacts_form:
