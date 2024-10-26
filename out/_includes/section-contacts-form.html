@@ -13,24 +13,7 @@
 
         <!-- form -->
         <div class="contact_form content-box">
-            <form id="cform" action="https://formsubmit.io/send/{{ site.formsubmit_email }}" method="POST">
-                <div class="group-val">
-                    <input type="text" name="name" placeholder="{{ ui_text.full_name }}" id="name" />
-                </div>
-                <div class="group-val">
-                    <input type="email" name="email" placeholder="{{ ui_text.email_address }}" id="email" />
-                </div>
-                <div class="group-val ct-gr">
-                    <textarea name="message" placeholder="{{ ui_text.your_message }}" id="message"></textarea>
-                </div>
-                <div class="group-bts">
-                    <button type="button" class="btn hover-animated" onclick="$('#cform').submit(); return false;">
-                        <span class="circle"></span>
-                        <span class="lnk">{{ ui_text.send_message }}</span>
-                    </button>
-                </div>
-
-            </form>
+            
             <form action="https://formspree.io/f/myyqgvvl" method="POST">
                 <div class="group-val">
                     <input type="text" name="name" placeholder="Your Name" required id="name" />
