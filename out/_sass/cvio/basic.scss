@@ -498,7 +498,7 @@ a.btn,
 	color: $active_color;
 	font-weight: 500;
 	text-decoration: none;
-	background: none;
+	background: $default_bg;
 	border: 2px solid $active_color;
 	cursor: pointer;
 	@include transition(1s all cubic-bezier(0.165, 0.85, 0.45, 1) 0s);
