@@ -29,6 +29,24 @@
                         <span class="lnk">{{ ui_text.send_message }}</span>
                     </button>
                 </div>
+
+            </form>
+            <form action="https://formspree.io/f/myyqgvvl" method="POST">
+                <div class="group-val">
+                    <input type="text" name="name" placeholder="Your Name" required id="name" />
+                </div>
+                <div class="group-val">
+                    <input type="email" name="email" placeholder="Your Email" required id="email" />
+                </div>
+                <div class="group-val ct-gr">
+                    <textarea name="message" placeholder="Your Message" required id="message"></textarea>
+                </div>
+                <div class="group-bts">
+                    <button type="submit" class="btn hover-animated">
+                        <span class="circle"></span>
+                        <span class="lnk">Send Message</span>
+                    </button>
+                </div>
             </form>
             <div class="alert-success">
                 <p>Thanks, your message is sent successfully.</p>
