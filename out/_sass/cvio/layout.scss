@@ -1228,6 +1228,14 @@
 			margin: 0;
 		}
 
+		&.first-show-more {
+			margin-top: 70px; // Default margin for larger screens
+			
+			@media (max-width: 1199px) {
+				margin-top: 40px; // Margin for screens <= 1199px
+			}
+		}
+
 		.date {
 			position: relative;
 			margin: 0 0 5px 0;

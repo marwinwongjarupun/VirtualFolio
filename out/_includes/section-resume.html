@@ -28,8 +28,7 @@
                 <div class="resume-items" id="more-experience" style="display: none;">
                     {% for item in content.experience.items %}
                     {% if forloop.index > 2 %} <!-- Show items with index greater than 2 -->
-                    <div class="resume-item content-box"
-                        style="{% if forloop.index == 3 %} margin-top: 40px; {% endif %}">
+                    <div class="resume-item content-box{% if forloop.index == 3 %} first-show-more{% endif %}">
                         <div class="date">{{ item.year }}</div>
                         <div class="name">{{ item.name }}</div>
                         <div class="text">{{ item.text }}</div>
