@@ -552,10 +552,11 @@ button {
 }
 
 input:focus,
-textarea:focus,
-button:focus {
-	color: $active_color;
-	
+textarea:focus
+{
+	color: $white_color;
+	border-bottom: 1px solid $white_color;
+		
 }
 
 textarea {

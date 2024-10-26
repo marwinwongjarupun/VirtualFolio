@@ -556,7 +556,7 @@
 		font-size: $default_size;
 		height: 50px;
 		width: 100%;
-		color: $light_light_color;
+		color: $light_white_color;
 		margin-bottom: 30px;
 		padding: 0;
 		background: none;
@@ -569,9 +569,10 @@
 	}
 
 	input:focus,
-	textarea:focus,
-	button:focus {
-		color: $active_color;
+	textarea:focus
+	{
+		color: $light_white_color;
+		border-bottom: 1px solid $light_white_color;
 		
 	}
 
