@@ -1070,6 +1070,39 @@
 		}
 	}
 
+	@media (min-aspect-ratio: 2.5/1) {
+		.section.started .started-content .logo {
+			display: none
+		}
+	
+		.section.started.personal .started-content .h-title {
+			top: auto;
+			left: 50px;
+			bottom: 50px;
+			width: auto;
+			margin-top: 0;
+			margin-right: 65px;
+		}
+	
+		.section.started.personal .started-content .typed-subtitle,
+		.section.started.personal .started-content .typed-bread {
+			margin-top: 0;
+			top: auto;
+			bottom: 50vh;
+		
+			line-height: 74px;
+			text-align: left;
+			
+			
+		}
+	
+	
+	
+		.section.started .swiper-nav {
+			bottom: 120px;
+		}
+	}
+
 	/* section started mobile */
 	@media (max-width: 340px) {
 		.section.started .swiper-nav {
@@ -1080,14 +1113,7 @@
 	/* section started mobile landscape */
 	@media screen and (orientation:landscape) and (min-device-width: 319px) and (max-device-width: 1199px) {
 		.section.started .started-content .logo {
-			position: absolute;
-			left: -30px;
-			right: -30px;
-			top: 0;
-			width: auto;
-			height: 100%;
-			-webkit-clip-path: none;
-			clip-path: none;
+			display: none
 		}
 
 		.section.started.personal .started-content .h-title {
@@ -1095,15 +1121,25 @@
 			left: 50px;
 			bottom: 50px;
 			width: auto;
-			margin-left: 0;
 			margin-top: 0;
-			margin-right: 50px;
+			margin-right: 65px;
 		}
 
 		.section.started.personal .started-content .typed-subtitle,
 		.section.started.personal .started-content .typed-bread {
-			display: none;
+			margin-top: 0;
+			top: auto;
+			bottom: 50vh;
+			left: 65px;
+			line-height: 74px;
+			text-align: center;
+
+			justify-content: center; // Center horizontally
+			align-items: center; // Center vertically
+
 		}
+
+
 
 		.section.started .swiper-nav {
 			bottom: 120px;
@@ -1237,7 +1273,7 @@
 
 			&.first-show-more {
 				margin-top: 70px; // Default margin for larger screens
-				
+
 				@media (max-width: 1199px) {
 					margin-top: 40px; // Margin for screens <= 1199px
 				}
@@ -3039,9 +3075,9 @@
 	}
 
 	.post-comments {
-		
+
 		background: $light_default_bg;
-		
+
 	}
 
 	.post-comments .comments,

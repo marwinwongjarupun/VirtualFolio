@@ -2,7 +2,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-app.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-analytics.js";
 // TODO: Add SDKs for Firebase products that you want to use
-import { getPerformance } from "firebase/performance";
+import { getPerformance } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-performance.js";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
