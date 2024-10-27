@@ -310,17 +310,24 @@
 	*/
 	$('header').on('click', '.menu-btn', function () {
 		
-		
-		if($('header').hasClass('active')){
+		if ($('header').hasClass('active')) {
 			$('header').removeClass('active');
-			$('.footer .copy').fadeIn();
+			
+			// Fade in footer social icons
 			$('.footer .soc').fadeIn();
 			$('body').addClass('loaded');
-			
+	
+			if ($(window).width() < 1500) {
+				// Check aspect ratio
+				const aspectRatio = window.innerWidth / window.innerHeight;
+				if (aspectRatio < 2.5 && !$('body').hasClass('home')) { 
+					$('.footer .copy').fadeIn(); // Show footer copy
+				}
+			}
 		} else {
 			$('header').addClass('active');
-			$('.footer .copy').hide();
-			$('.footer .soc').hide();
+			$('.footer .copy').hide(); // Hide footer copy
+			$('.footer .soc').hide(); // Hide footer social icons
 			$('body').removeClass('loaded');
 			$('body').removeClass('background-enabled');
 		}
