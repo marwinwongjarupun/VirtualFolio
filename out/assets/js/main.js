@@ -313,11 +313,13 @@
 		
 		if($('header').hasClass('active')){
 			$('header').removeClass('active');
+			$('.footer .copy').fadeIn();
 			$('.footer .soc').fadeIn();
 			$('body').addClass('loaded');
 			
 		} else {
 			$('header').addClass('active');
+			$('.footer .copy').hide();
 			$('.footer .soc').hide();
 			$('body').removeClass('loaded');
 			$('body').removeClass('background-enabled');
