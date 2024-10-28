@@ -319,8 +319,7 @@
 	
 			if ($(window).width() < 1500) {
 				// Check aspect ratio
-				const aspectRatio = window.innerWidth / window.innerHeight;
-				if (aspectRatio < 2.5 && !$('body').hasClass('home')) { 
+				if (!$('body').hasClass('home')) { 
 					$('.footer .copy').fadeIn(); // Show footer copy
 				}
 			}

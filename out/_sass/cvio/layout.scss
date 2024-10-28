@@ -3552,13 +3552,9 @@ object {
 		text-align: center;
 	}
 
-	.home .footer .copy {
-		display: none;
-	}
+	
 
-	.light-mode.home .footer .copy {
-		display: none;
-	}
+	
 
 	.footer {
 		padding: 50px 0;
@@ -3586,63 +3582,9 @@ object {
 		display: inline-block;
 	}
 
-	.home .footer {
-		padding: 0;
-		position: fixed;
-		bottom: 50px;
-		top: auto;
-		left: 50px;
-		right: 50px;
-		height: 1px;
-	}
+	
 
-	.light-mode.home .footer {
-		padding: 0;
-		position: fixed;
-		bottom: 50px;
-		top: auto;
-		left: 50px;
-		right: 50px;
-		height: 1px;
-	}
-
-	.home .footer .soc-box {
-		position: absolute;
-		right: 0;
-		left: auto;
-		top: auto;
-		bottom: 0;
-		float: right;
-		width: 20px;
-	}
-
-	.light-mode.home .footer .soc-box {
-		position: absolute;
-		right: 0;
-		left: auto;
-		top: auto;
-		bottom: 0;
-		float: right;
-		width: 20px;
-	}
-
-	.home .footer .soc a {
-		margin: 10px 0 0 0;
-		display: block;
-	}
-
-	.light-mode.home .footer .soc a {
-		margin: 10px 0 0 0;
-		display: block;
-	}
-
-	.home .footer .soc a .icon {
-		font-size: 17px;
-	}
-
-	.light-mode.home .footer .soc a .icon {
-		font-size: 17px;
-	}
+	
 }
 
 /* section footer mobile */
