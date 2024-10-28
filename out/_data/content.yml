@@ -292,16 +292,16 @@ clients:
   title: "Clients"
   items:
     - url: "https://www.google.com"
-      image: "assets/img/clients/client1.png"
+      image: "assets/img/logos/DrPOM-logo.webp"
 
     - url: "https://www.google.com"
-      image: "assets/img/clients/client2.png"
+      image: "assets/img/logos/imperial-logo.webp"
 
     - url: "https://www.google.com"
-      image: "assets/img/clients/client3.png"
+      image: "assets/img/logos/cuhk-logo.webp"
 
     - url: "https://www.google.com"
-      image: "assets/img/clients/client4.png"
+      image: "assets/img/logos/leeds-logo.webp"
       
 ## Custom Text [ text ]
 text:
