@@ -13,20 +13,20 @@ portfolio:
   filters:
    
 
-    - name: "VR"
-      slug: "f-VR"
 
-    - name: "AR"
-      slug: "f-AR"
+    - name: "Hackathon Projects"
+      slug: "f-hack"
 
     - name: "Medtech"
       slug: "f-medtech"
 
-    - name: "XR"
-      slug: "f-XR"
+   
 
     - name: "Uni Projects"
       slug: "f-uni-project"
 
     - name: "Unity"
       slug: "f-unity"
+
+    - name: "VR"
+      slug: "f-VR"
