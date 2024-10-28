@@ -1042,7 +1042,7 @@
 		.section.started.personal .started-content .typed-bread {
 			left: 0;
 			bottom: 30px;
-			padding-right: 50px;
+			padding-right: 20px;
 			font-size: 40px;
 			line-height: 45px;
 		}
@@ -3557,49 +3557,12 @@
 			display: inline-block;
 		}
 
-		.home .footer {
-			padding: 0;
-			position: fixed;
-			bottom: 50px;
-			top: auto;
-			left: 50px;
-			right: 50px;
-			height: 1px;
-		}
+		
 
-		.home .footer .copy {
-			display: none;
-		}
-
-		.home .footer .soc-box {
-			position: absolute;
-			right: 0;
-			left: auto;
-			top: auto;
-			bottom: 0;
-			float: right;
-			width: 20px;
-		}
-
-		.home .footer .soc a {
-			margin: 10px 0 0 0;
-			display: block;
-		}
-
-		.home .footer .soc a .icon {
-			font-size: 17px;
-		}
+		
 	}
 
-	/* section footer mobile */
-	@media (max-width: 720px) {
-		.home .footer {
-			bottom: 30px;
-			top: auto;
-			left: 30px;
-			right: 30px;
-		}
-	}
+	
 
 	/* - Popups */
 	.popup-box {
