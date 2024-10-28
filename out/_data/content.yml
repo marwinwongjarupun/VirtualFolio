@@ -291,16 +291,16 @@ testimonials:
 clients:
   title: "Clients"
   items:
-    - url: "https://www.google.com"
+    - url: "https://drpom.net/en/"
       image: "assets/img/logos/DrPOM-logo.webp"
 
-    - url: "https://www.google.com"
+    - url: "https://www.imperial.ac.uk/"
       image: "assets/img/logos/imperial-logo.webp"
 
-    - url: "https://www.google.com"
+    - url: "https://www.cuhk.edu.hk/"
       image: "assets/img/logos/cuhk-logo.webp"
 
-    - url: "https://www.google.com"
+    - url: "https://www.leeds.ac.uk/"
       image: "assets/img/logos/leeds-logo.webp"
       
 ## Custom Text [ text ]
