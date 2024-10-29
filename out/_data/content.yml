@@ -6,10 +6,10 @@
 ### Logo
 
 logo:
-  image: "../assets/img/logo-dark-new.png"
+  image: "../assets/img/logo-dark-new.webp"
 
 logo-light:
-  image: "../assets/img/logo-light-new.png"
+  image: "../assets/img/logo-light-new.webp"
 
 ### About [ about ]
 about:
@@ -294,18 +294,26 @@ clients:
     - url: "https://drpom.net/en/"
       image: "assets/img/logos/DrPOM-logo.webp?v=1"
       name: "Dr.POM"
+      width: "869"
+      height: "215"
 
     - url: "https://www.imperial.ac.uk/"
       image: "assets/img/logos/imperial-logo.webp?v=1"
       name: "Imperial"
+      width: "513"
+      height: "99"
 
     - url: "https://www.cuhk.edu.hk/"
       image: "assets/img/logos/cuhk-logo.webp?v=1"
       name: "CUHK"
+      width: "1000"
+      height: "176"
 
     - url: "https://www.leeds.ac.uk/"
       image: "assets/img/logos/leeds-logo.webp?v=1"
       name: "Leeds"
+      width: "1600"
+      height: "516"
       
 ## Custom Text [ text ]
 text:

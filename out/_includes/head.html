@@ -7,9 +7,6 @@
   <!-- Favicon -->
   <link rel="icon" href="{{ 'assets/images/favicons/favicon.ico' | relative_url }}" sizes="any">
 
-  <!-- Preload key image with high priority -->
-  <link rel="preload" as="image" href="{{ '/assets/img/Profile-pic-clear.webp' | relative_url }}" fetchpriority="high">
-
   <!-- Load Fonts with Preload and Swap -->
   <link rel="preload"
     href="https://fonts.googleapis.com/css?family=Poppins:100,300,400,500,700&display=swap&subset=cyrillic" as="style"
@@ -64,16 +61,33 @@
 
   {%- include custom-head.html -%}
 
-  <!-- Add canonical page to indicate to Google search console-->
-  <link rel="canonical" href="{{ site.url }}{{ page.url | relative_url }}">
-  <style>
-    .logo {
-      background-image: url('{{ ' /assets/img/Profile-pic-clear.webp' | relative_url }}');
-      width: 100%;
-      /* Adjust based on design */
-      height: auto;
-      /* Adjust based on design */
-    }
-  </style>
+  <script>
+    window.onload = function () {
+      // Check if the current page is the home page
+      if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
+        // Create and append preload link for the key image
+        var preloadLink = document.createElement('link');
+        preloadLink.rel = 'preload';
+        preloadLink.as = 'image';
+        preloadLink.href = '{{ "/assets/img/Profile-pic-clear.webp" | relative_url }}';
+        preloadLink.setAttribute('fetchpriority', 'high'); // Set fetch priority
+        document.head.appendChild(preloadLink);
+
+        // Optionally, add inline CSS for the logo
+        var style = document.createElement('style');
+        style.textContent = `
+                .logo {
+                    background-image: url('{{ "/assets/img/Profile-pic-clear.webp" | relative_url }}');
+                    width: 100%; /* Adjust based on design */
+                    height: auto; /* Adjust based on design */
+                }
+            `;
+        document.head.appendChild(style);
+      }
+    };
+  </script>
+
+
+
 
 </head>

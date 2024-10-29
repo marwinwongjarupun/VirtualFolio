@@ -15,7 +15,7 @@ function toggleLightMode() {
         document.getElementById('toggle-theme-button').innerHTML = '<span class="material-icons" style="font-size:20px;">light_mode</span> <span style="font-size: 30px;">|</span> <span class="material-symbols-outlined" style="font-size:20px;">dark_mode</span>';
         // Change the logo image to the light version
         document.querySelectorAll('.logo-img').forEach(function(logoImg) {
-            logoImg.src = '/assets/img/logo-light-new.png'; // Replace with the correct image path
+            logoImg.src = '/assets/img/logo-light-new.webp'; // Replace with the correct image path
         });
     } else {
         // Switch to dark mode
@@ -24,7 +24,7 @@ function toggleLightMode() {
         document.getElementById('toggle-theme-button').innerHTML = '<span class="material-symbols-outlined"style="font-size:20px;">light_mode</span> <span style="font-size: 30px;">|</span> <span class="material-icons"style="font-size:20px;">dark_mode</span>';
         // Change the logo image to the dark version
         document.querySelectorAll('.logo-img').forEach(function(logoImg) {
-            logoImg.src = '/assets/img/logo-dark-new.png'; // Replace with the correct image path
+            logoImg.src = '/assets/img/logo-dark-new.webp'; // Replace with the correct image path
         });
     }
 
@@ -40,7 +40,7 @@ if (isLightMode) {
     document.body.classList.add('light-mode');
     // Change the logo image to the light version
     document.querySelectorAll('.logo-img').forEach(function(logoImg) {
-        logoImg.src = '/assets/img/logo-light-new.png'; // Replace with the correct image path
+        logoImg.src = '/assets/img/logo-light-new.webp'; // Replace with the correct image path
     });
 }
 

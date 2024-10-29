@@ -1,6 +1,8 @@
 {% assign ui_text = site.data.ui-text['ui_text'] %}
 {% assign categories = site.data.settings['portfolio'] %}
 
+<script type="module" src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"></script>
+
 <div class="section home-works" id="section-portfolio">
     <div class="content">
 
@@ -157,7 +159,7 @@
                             </div>
                             {% if work.button_url != '' %}
                             <p>
-                                <a href="{{ work.button_url }}" target="_self" class="btn hover-animated">
+                                <a href="{{ work.button_url | relative_url }}" target="_self" class="btn hover-animated">
                                     <span class="circle"></span>
                                     <span class="lnk">{{ ui_text.view_project }}</span>
                                 </a>
@@ -198,7 +200,7 @@
                             </div>
                             {% if work.button_url != '' %}
                             <p>
-                                <a href="{{ work.button_url }}" target="_self" class="btn hover-animated">
+                                <a href="{{ work.button_url | relative_url }}" target="_self" class="btn hover-animated">
                                     <span class="circle"></span>
                                     <span class="lnk">{{ ui_text.view_project }}</span>
                                 </a>

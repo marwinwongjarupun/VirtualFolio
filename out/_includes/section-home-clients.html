@@ -4,20 +4,22 @@
 <div class="section clients" id="section-clients">
     <div class="content">
         {% if content.title != '' %}
- 
+
         <div class="title">
             <div class="title_inner">Where I've Worked</div>
         </div>
         {% endif %}
-        
-      
+
+
         <div class="content-box">
             <div class="clients-items">
                 {% for item in content.items %}
                 <div class="clients-col">
                     <div class="clients-item">
                         <a target="_blank" href="{{ item.url }}">
-                            <img src="{{ item.image | relative_url }}" alt="{{ item.name }} - Visit their website" />
+                            <img src="{{ item.image | relative_url }}" alt="{{ item.name }} - Visit their website"
+                                width="{{ item.width }}" height="{{ item.height }}"
+                                style="max-width: 100%; height: auto;">
                             <span class="link-text">Visit {{ item.name }}</span>
                         </a>
                     </div>

@@ -13,9 +13,7 @@ Propheistry draws inspiration from popular titles like Prop Hunt and Among Us. I
 
 *Login Screen*
 
-
 <img src="../../assets/img/gifs/login.gif" alt="login" class="responsive-image" loading="lazy">
-
 
 *Shape-shift to Prop*
 
@@ -23,58 +21,40 @@ Propheistry draws inspiration from popular titles like Prop Hunt and Among Us. I
 
 *Gun Mechanic*
 
-
 <img src="../../assets/img/gifs/gun-1.gif" alt="gun-1" class="responsive-image" loading="lazy">
 
-
 <img src="../../assets/img/gifs/gun-2.gif" alt="gun-2" class="responsive-image" loading="lazy">
-
 
 **Locomotion**
 
 *Smooth Locomotion*
 
-
 <img src="../../assets/img/gifs/smooth.gif" alt="smooth" class="responsive-image" loading="lazy">
-
 
 *Teleportation*
 
-
 <img src="../../assets/img/gifs/teleportation.gif" alt="teleportation" class="responsive-image" loading="lazy">
-
 
 **Immersion**
 
 *VFX*
 
-
 <img src="../../assets/img/gifs/vfx.gif" alt="vfx" class="responsive-image" loading="lazy">
 
-
 *SFX*
-
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3Wk0qJoQeoE?si=FZs8iyz6KcYRdm8j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
 
 *Toggle View*
 
-
 <img src="../../assets/img/gifs/toggle-view.gif" alt="toggle" class="responsive-image" loading="lazy">
-
 
 **Game Loop Assist**
 
 *Player Health*
 
-
 <img src="../../assets/img/gifs/health.gif" alt="health" class="responsive-image" loading="lazy">
-
-
 
 *Timers*
 
 <img src="../../assets/img/gifs/time.gif" alt="time" class="responsive-image" loading="lazy">
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xZss7-WzMXA?si=h7hqFFhdxXgS50im" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>

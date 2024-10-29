@@ -1,10 +1,10 @@
 ---
 title: CUHK SURP Project
-category: XR, Medtech
-category_slug: f-XR f-medtech f-AR f-VR
+category: VR, Medtech
+category_slug: f-medtech f-VR
 image: assets/img/works/cuhk-surp.webp
 type: content
-button_url: cuhk-surp
+button_url: portfolio/cuhk-surp
 video-id: MCj5u6JrW0Y
 ---
 * Created Pong-like game to encourage stroke patients to perform exercises that improve brain function
