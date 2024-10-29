@@ -17,7 +17,8 @@
                 <div class="clients-col">
                     <div class="clients-item">
                         <a target="_blank" href="{{ item.url }}">
-                            <img src="{{ item.image | relative_url }}" alt="" />
+                            <img src="{{ item.image | relative_url }}" alt="{{ item.name }} - Visit their website" />
+                            <span class="link-text">Visit {{ item.name }}</span>
                         </a>
                     </div>
                 </div>
@@ -28,7 +29,7 @@
         <div class="group-bts" style="display: flex; justify-content: center; margin-top: 20px;">
             <a href="{{site.url}}/resume/" class="btn hover-animated" style="margin-top: 20px;">
                 <span class="circle"></span>
-                <span class="lnk">Learn More</span>
+                <span class="lnk">View My Resume</span>
             </a>
         </div>
 

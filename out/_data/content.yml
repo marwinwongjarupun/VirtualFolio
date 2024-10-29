@@ -292,16 +292,20 @@ clients:
   title: "Clients"
   items:
     - url: "https://drpom.net/en/"
-      image: "assets/img/logos/DrPOM-logo.webp"
+      image: "assets/img/logos/DrPOM-logo.webp?v=1"
+      name: "Dr.POM"
 
     - url: "https://www.imperial.ac.uk/"
-      image: "assets/img/logos/imperial-logo.webp"
+      image: "assets/img/logos/imperial-logo.webp?v=1"
+      name: "Imperial"
 
     - url: "https://www.cuhk.edu.hk/"
-      image: "assets/img/logos/cuhk-logo.webp"
+      image: "assets/img/logos/cuhk-logo.webp?v=1"
+      name: "CUHK"
 
     - url: "https://www.leeds.ac.uk/"
-      image: "assets/img/logos/leeds-logo.webp"
+      image: "assets/img/logos/leeds-logo.webp?v=1"
+      name: "Leeds"
       
 ## Custom Text [ text ]
 text:
