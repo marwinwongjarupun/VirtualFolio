@@ -198,6 +198,15 @@
 				cursor_out();
 			}
 		});
+		// Add hover effects specifically for the toggle theme button
+		$('#toggle-theme-button').on({
+			mouseenter: function (e) {
+				cursor_over(); // Call your hover effect function
+			},
+			mouseleave: function (e) {
+				cursor_out(); // Call your hover out effect function
+			}
+		});
 	}
 	function cursor_over() {
 		$(".cursor-follower").stop().animate({ width: 86, height: 86, opacity: 0.1, margin: '-43px 0 0 -43px' }, 500);
