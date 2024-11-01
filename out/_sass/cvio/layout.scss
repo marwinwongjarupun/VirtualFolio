@@ -1125,7 +1125,7 @@
 		.h-title {
 			top: auto;
 			left: 50px;
-			bottom: 50px;
+			bottom: 60px;
 			width: auto;
 			margin-top: 0;
 			margin-right: 65px;
@@ -1145,18 +1145,6 @@
 
 	.section.started .swiper-nav {
 		bottom: 120px;
-	}
-}
-
-@media screen and (orientation:landscape) and (min-device-width: 319px) and (max-device-width: 670px) {
-	.section.started.personal .started-content .h-title {
-		left: 0;
-		bottom: 30px;
-		margin-right: 30px;
-	}
-
-	.section.started .swiper-nav {
-		bottom: 100px;
 	}
 }
 
