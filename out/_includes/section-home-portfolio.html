@@ -1,5 +1,6 @@
 {% assign ui_text = site.data.ui-text['ui_text'] %}
 {% assign categories = site.data.settings['portfolio'] %}
+{% assign project_url = 'portfolio/' %} 
 
 <script type="module" src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"></script>
 
@@ -219,7 +220,7 @@
         </div>
 
         <div class="group-bts" style="display: flex; justify-content: center; margin-top: 20px;">
-            <a href="{{site.url}}/portfolio/" class="btn hover-animated" style="margin-top: 20px;">
+            <a href="{{ project_url | relative_url }} " class="btn hover-animated" style="margin-top: 20px;">
                 <span class="circle"></span>
                 <span class="lnk">Explore More Projects</span>
             </a>

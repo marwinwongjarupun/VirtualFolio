@@ -14,7 +14,7 @@ logo-light:
 ### About [ about ]
 about:
   image: "assets/img/Profile Pic.jpg"
-  text: "<p>Hello! I’m Marwin Wongjarupun. I am a highly motivated and skilled graduate in Electronics and Computer Engineering with a strong interest in XR development. With a solid foundation in hardware and software systems, I possess a deep understanding of computer architecture, programming languages, and signal processing.</p>"
+  text: "<p>Hello! I’m Marwin Wongjarupun. I am a highly motivated and skilled graduate in Electronics and Computer Engineering with a strong interest in medical device development. With a solid foundation in hardware and software systems, as well as experience creating a business plan for a medtech spinoff, I possess a deep understanding of both the research and business side of medtech startups.</p>"
   list:
 
     - label: "E-mail"
@@ -26,7 +26,7 @@ about:
 
 home-about:
   image: "assets/img/grad-pic.webp"
-  text: "<p>Hello! I’m Marwin Wongjarupun. I am a highly motivated and skilled graduate in Electronics and Computer Engineering with a strong interest in XR development. With a solid foundation in hardware and software systems, I possess a deep understanding of computer architecture, programming languages, and signal processing.</p>"
+  text: "<p>Hello! I’m Marwin Wongjarupun. I am a highly motivated and skilled graduate in Electronics and Computer Engineering with a strong interest in medical device development. With a solid foundation in hardware and software systems, as well as experience creating a business plan for a medtech spinoff, I possess a deep understanding of both the research and business side of medtech startups.</p>"
   
 
 ### Services [ services ]
