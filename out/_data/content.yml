@@ -18,7 +18,7 @@ about:
   list:
 
     - label: "E-mail"
-      value: "marwin111@gmail.com"
+      value: "mw@marwinwongjarupun.com"
 
   download:
     text: "Download CV"
@@ -331,7 +331,7 @@ contacts_info:
   list:
     - label: "Email"
       icon:  "fas fa-envelope"
-      value: "<a href='mailto:marwin111@gmail.com'>marwin111@gmail.com</a>"
+      value: "<a href='mailto:mw@marwinwongjarupun.com'>mw@marwinwongjarupun.com</a>"
 
     - label: "Address"
       icon: "fas fa-map-marker-alt"

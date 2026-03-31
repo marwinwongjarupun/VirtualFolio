@@ -20,11 +20,11 @@
 
 # basic settings
 title: "Marwin Wongjarupun"
-email: "marwin111@gmail.com"
+email: "mw@marwinwongjarupun.com"
 description: "CV Website"
 author: "Admin"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://marwinwongjarupun.web.app" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://marwinwongjarupun.com" # the base hostname & protocol for your site, e.g. http://example.com
 date_format: "%d %B %Y"
 
 
@@ -38,7 +38,7 @@ disqus_comments: "yes" # yes - show disqus comments, no - hide disqus comments
 disqus_shortname: "glitche-jekyll-theme" # read more here https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
 
 # formsubmit.io
-formsubmit_email: "marwin111@gmail.com" # sign up on https://formsubmit.io/ and confirm your email
+formsubmit_email: "mw@marwinwongjarupun.com" # sign up on https://formsubmit.io/ and confirm your email
 
 # collections
 collections:
